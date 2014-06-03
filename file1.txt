@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 Hello
 World
-Sobolev_Update3
-=======
-dsdadasâôâôâôûâôâôâôââôâ
->>>>>>> 1817c14aacd66784860367a40a01c9e79c332751
+Sobolev_Update1.2.3
+
