@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Text.RegularExpressions;
 
 public class Forgot_Password : MonoBehaviour {
 	public string LoginString = "";
@@ -30,9 +31,16 @@ public class Forgot_Password : MonoBehaviour {
 		GUI.DrawTexture (new Rect (450, 330, 130, 40), username);
 		GUI.DrawTexture (new Rect (460, 385, 100, 40), email);
 
-		EmailString = GUI.TextField(new Rect(605, 335, 200, 30), EmailString, 25);
-		LoginString = GUI.TextField (new Rect (605, 390, 200, 30), LoginString,15);
+		LoginString = GUI.TextField (new Rect (605, 335, 200, 30), LoginString, 15);
+		LoginString= Regex.Replace(LoginString, @"[^a-zA-Z\_]", "");
 
+		EmailString = GUI.TextField(new Rect(605, 390, 200, 30), EmailString, 25);
+		bool isEmail = Regex.IsMatch(EmailString, @"\A(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?)\Z", RegexOptions.IgnoreCase);
+		if (isEmail) {
+			Debug.Log("Формат правильный.");
+			//Отсылать письмо отсюда!
+		}
+		
 		if (Input.GetButtonDown("Fire1"))
 		{
 			audio.PlayOneShot(menu_click);

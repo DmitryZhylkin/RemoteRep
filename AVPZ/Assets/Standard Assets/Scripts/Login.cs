@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Text.RegularExpressions;
 
 public class Login : MonoBehaviour {
 
@@ -26,13 +27,16 @@ public class Login : MonoBehaviour {
 	} 
 
 	void OnGUI() {
+
 		GUI.BeginGroup (new Rect (Screen.width / 2 - 630, Screen.height / 2 - 500, 1000, 1000));
 		GUI.DrawTexture (new Rect (300, 100, 650, 150), Logo);
 		GUI.Box (new Rect (400, 300, 450, 250), "");
 		GUI.DrawTexture (new Rect (450, 330, 130, 40), username);
 		GUI.DrawTexture (new Rect (450, 385, 130, 40), password);
 		LoginString = GUI.TextField (new Rect (605, 335, 200, 30), LoginString, 15);
-		PassString = GUI.PasswordField(new Rect(605, 390, 200, 30), PassString, '•');
+		LoginString= Regex.Replace(LoginString, @"[^a-zA-Z\_]", "");
+		PassString = GUI.PasswordField(new Rect(605, 390, 200, 30), PassString, '•', 15);
+		PassString= Regex.Replace(PassString, @"[^a-zA-Z0-9\_]", "");
 
 		if (Input.GetButtonDown("Fire1"))
 		{

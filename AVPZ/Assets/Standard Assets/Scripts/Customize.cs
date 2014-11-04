@@ -78,6 +78,7 @@ public class Customize: MonoBehaviour {
 		}
 
 		if (GUI.Button (new Rect (600, 700, 230, 60), confirm, transparent)) {
+			Screen.showCursor=false;
 			Application.LoadLevel("Level_1");
 		}
 			GUI.EndGroup ();
