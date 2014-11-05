@@ -1,19 +1,27 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Text.RegularExpressions;
+using System.Data;
+using Mono.Data.SqliteClient;
+using System;
 
 public class Login : MonoBehaviour {
 
-	private Texture Logo;
-	public AudioClip menu_click;
-	private Texture username;
-	private Texture password;
 	public string LoginString = "";
 	public string PassString = "";
+
+	private Texture Logo;
+	private Texture username;
+	private Texture password;
 	private Texture forgot;
 	private Texture login_new;
 	private Texture signup;
+
+	public AudioClip menu_click;
+
 	private GUIStyle transparent = new GUIStyle();
+	
+	//Загрузка текстур в память
 
 	void Start()
 	{ 
@@ -33,10 +41,15 @@ public class Login : MonoBehaviour {
 		GUI.Box (new Rect (400, 300, 450, 250), "");
 		GUI.DrawTexture (new Rect (450, 330, 130, 40), username);
 		GUI.DrawTexture (new Rect (450, 385, 130, 40), password);
+
+		//Проверка правильности Логина (Буквы и "_") и Пароля (Буквы, цифры, "_")
+
 		LoginString = GUI.TextField (new Rect (605, 335, 200, 30), LoginString, 15);
 		LoginString= Regex.Replace(LoginString, @"[^a-zA-Z\_]", "");
 		PassString = GUI.PasswordField(new Rect(605, 390, 200, 30), PassString, '•', 15);
 		PassString= Regex.Replace(PassString, @"[^a-zA-Z0-9\_]", "");
+
+		//звук по клику
 
 		if (Input.GetButtonDown("Fire1"))
 		{
@@ -44,7 +57,30 @@ public class Login : MonoBehaviour {
 			audio.volume = 0.3F;
 		}
 
+		// Проверка существования игрока в БД. Если да - вход в игру.
+
 		if (GUI.Button (new Rect (490, 480, 100, 50), login_new, transparent)) {
+			IDataReader reader;
+			string _DBName = "URI=file:Assets/DB/Unity.db";
+			IDbConnection _connection = new SqliteConnection (_DBName);
+			IDbCommand _command = _connection .CreateCommand ();
+			string sql = "SELECT * FROM Players WHERE Login='"+ LoginString +"' AND Password='" +PassString +"';";
+			_connection .Open ();
+			Debug.Log (sql);
+				_command.CommandText = sql;
+				_command.ExecuteNonQuery ();
+			reader = _command.ExecuteReader(); 
+			if( reader.Read() ) { 
+				Debug.Log("Вход выполнен.");
+			}
+
+			else {
+			Debug.Log("Пользователь не существует либо введены неверные данные. Попробуйте еще раз.");
+			_command.CommandText = sql;
+			_command.ExecuteNonQuery ();
+			_command.Dispose ();
+			_connection .Close ();
+			}
 			Application.LoadLevel("Main");
 		}
 
@@ -58,4 +94,4 @@ public class Login : MonoBehaviour {
 
 		GUI.EndGroup ();
 	}
-}
+	}

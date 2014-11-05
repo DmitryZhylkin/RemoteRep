@@ -12,14 +12,19 @@ public class Register : MonoBehaviour {
 	public string LoginString = "";
 	public string PassString = "";
 	public string EmailString = "";
+
 	private Texture reg_logo;
-	public AudioClip menu_click;
 	private Texture username;
 	private Texture password;
 	private Texture email;
 	private Texture submit;
 	private Texture cancel;
+
+	public AudioClip menu_click;
+
 	private GUIStyle transparent = new GUIStyle();
+
+	//Загрузка текстур в память
 
 	void Start()
 	{ 
@@ -32,28 +37,6 @@ public class Register : MonoBehaviour {
 		cancel = (Texture)Resources.Load ("cancel");
 	}
 
-	void CreateDB(){
-				string _constr = "URI=file:Assets/DB/Unity.db";
-				IDbConnection _dbc;
-				IDbCommand _dbcm;
-				IDataReader _dbr;
-		
-				string _strDBName = "URI=file:Assets/DB/Unity.db";
-				IDbConnection _connection = new SqliteConnection (_strDBName);
-				IDbCommand _command = _connection .CreateCommand ();
-				string sql;
-		
-				_connection .Open ();
-		
-				sql = "CREATE TABLE Players (Login VARCHAR(15), Password VARCHAR(15), Email VARCHAR(25), Checkpoint VARCHAR(3), Score INT)";
-				_command.CommandText = sql;
-				_command.ExecuteNonQuery ();
-				_command.Dispose ();
-				_command = null;
-				_connection .Close ();
-				_connection = null;
-		}
-
 		void OnGUI() {
 		
 		GUI.BeginGroup (new Rect (Screen.width / 2 - 630, Screen.height / 2 - 500, 1000, 1000)); 
@@ -63,16 +46,22 @@ public class Register : MonoBehaviour {
 		GUI.DrawTexture (new Rect (450, 385, 130, 40), password);
 		GUI.DrawTexture (new Rect (460, 440, 100, 40), email);
 
+		//Проверка правильности Логина (Буквы и "_"), Пароля (Буквы, цифры, "_"), Почты
+
 		LoginString = GUI.TextField (new Rect (605, 335, 200, 30), LoginString, 15);
 		LoginString= Regex.Replace(LoginString, @"[^a-zA-Z\_]", "");
 		PassString = GUI.PasswordField(new Rect(605, 390, 200, 30), PassString, '•', 15);
 		PassString= Regex.Replace(PassString, @"[^a-zA-Z0-9\_]", "");
 		EmailString = GUI.TextField (new Rect (605, 445, 200, 30), EmailString,25);
+
+		//Проверка правильного формата почты
+
 		bool isEmail = Regex.IsMatch(EmailString, @"\A(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?)\Z", RegexOptions.IgnoreCase);
 		if (isEmail) {
 			Debug.Log("Формат правильный.");
-					//Отсылать письмо отсюда!
 		}
+
+		//звук по клику
 
 		if (Input.GetButtonDown("Fire1"))
 		{
@@ -80,13 +69,11 @@ public class Register : MonoBehaviour {
 			audio.volume = 0.3F;
 		}
 
+
 		if (GUI.Button (new Rect (630,500,180,50), submit, transparent)) {
 
-			string _constr = "URI=file:Assets/DB/Unity.db";
-			IDbConnection _dbc;
-			IDbCommand _dbcm;
-			IDataReader _dbr;
-			
+			//регистрация (запрос к БД)
+
 			string _strDBName = "URI=file:Assets/DB/Unity.db";
 			IDbConnection _connection = new SqliteConnection (_strDBName);
 			IDbCommand _command = _connection .CreateCommand ();
@@ -95,21 +82,23 @@ public class Register : MonoBehaviour {
 			_connection .Open ();
 			
 			sql = "INSERT INTO Players (Login, Password, Email, Checkpoint, Score) VALUES ('"+LoginString+"', '"+PassString+"', '"+EmailString+"', '1', 0);";
-			Debug.Log (sql);
 			_command.CommandText = sql;
 			_command.ExecuteNonQuery ();
 			_command.Dispose ();
 			_command = null;
 			_connection .Close ();
 			_connection = null;
+
 			Debug.Log("Вы успешно зарегистрировались.");
+
+			//Отсылка письма на почту
 
 			MailMessage mail = new MailMessage();
 			
 			mail.From = new MailAddress("PI.12.2.Unity@gmail.com");
 			mail.To.Add(EmailString);
-			mail.Subject = "Test Mail";
-			mail.Body = "This is for testing SMTP mail from GMAIL";
+			mail.Subject = "Game Registration";
+			mail.Body = "Thank you for playing our game! Hope you'll enjoy it.\n\r Your Login is:" + LoginString+ "\n\r Your Password is:" + PassString+"";
 			
 			SmtpClient smtpServer = new SmtpClient("smtp.gmail.com");
 			smtpServer.Port = 587;
@@ -119,7 +108,7 @@ public class Register : MonoBehaviour {
 				delegate(object s, X509Certificate certificate, X509Chain chain, SslPolicyErrors sslPolicyErrors) 
 			{ return true; };
 			smtpServer.Send(mail);
-			Debug.Log("success");
+			Debug.Log("Письмо отправлено");
 			Application.LoadLevel("Login");
 		}
 		if (GUI.Button (new Rect (510, 500, 180, 50), cancel, transparent)) {
