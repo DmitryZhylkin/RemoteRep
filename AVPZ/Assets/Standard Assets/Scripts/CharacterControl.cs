@@ -25,6 +25,7 @@ public class CharacterControl : MonoBehaviour
 	private void Start()
 	{
 		anim = GetComponent<Animator>();
+		Time.timeScale = 1;
 	}
 	
 	/// <summary>
