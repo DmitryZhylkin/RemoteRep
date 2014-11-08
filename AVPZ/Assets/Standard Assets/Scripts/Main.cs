@@ -9,6 +9,7 @@ public class Main: MonoBehaviour {
 	private Texture Quit;
 	private Texture Logo;
 	public AudioClip menu_click;
+	public static string nick = "";
 
 	
 	void Start()
@@ -24,6 +25,7 @@ public class Main: MonoBehaviour {
 	void OnGUI() {
 		GUI.backgroundColor = Color.clear;
 		GUI.BeginGroup (new Rect (Screen.width / 2 - 630, Screen.height / 2 - 500, 1000, 1000));
+		GUI.Label (new Rect (800,900,200,80),"<size=20>"+nick+"</size>");
 		GUI.DrawTexture (new Rect (300, 100, 650, 150), Logo);
 
 		if (Input.GetButtonDown("Fire1"))

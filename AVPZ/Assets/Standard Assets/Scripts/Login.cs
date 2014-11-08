@@ -60,6 +60,7 @@ public class Login : MonoBehaviour {
 		// Проверка существования игрока в БД. Если да - вход в игру.
 
 		if (GUI.Button (new Rect (490, 480, 100, 50), login_new, transparent)) {
+			Main.nick=LoginString;
 			IDataReader reader;
 			string _DBName = "URI=file:Assets/DB/Unity.db";
 			IDbConnection _connection = new SqliteConnection (_DBName);
