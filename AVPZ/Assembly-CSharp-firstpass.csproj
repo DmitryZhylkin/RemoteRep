@@ -70,6 +70,7 @@
      <Compile Include="Assets\Standard Assets\Scripts\Main.cs" />
      <Compile Include="Assets\Standard Assets\Scripts\ObjectDestroyer.cs" />
      <Compile Include="Assets\Standard Assets\Scripts\Register.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\coinsCollect.cs" />
      <Compile Include="Assets\Standard Assets\Water (Basic)\Sources\Scripts\WaterSimple.cs" />
      <Compile Include="Assets\Standard Assets\Water (Pro Only)\Sources\Scripts\Water.cs" />
      <Compile Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\Displace.cs" />
