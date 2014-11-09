@@ -76,6 +76,13 @@ public class CharacterControl : MonoBehaviour
 			//прикладываем силу вверх, чтобы персонаж подпрыгнул
 			rigidbody2D.AddForce(new Vector2(0, 300));				
 		}
+		if (Input.GetKey(KeyCode.F)) {
+			anim.Play("Attack(sword)");
+		} 
+		else if (Input.GetKeyUp(KeyCode.F)) {
+			anim.Play("Idle");
+		}
+		
 	}
 	
 	/// <summary>
