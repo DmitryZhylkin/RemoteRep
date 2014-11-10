@@ -36,7 +36,7 @@ public class Main: MonoBehaviour {
 
 		if (GUI.Button (new Rect (490, 400, 300, 80), Continue))
 		{
-			//Application.LoadLevel ("Checkpoint");
+			Application.LoadLevel ("Level_1");
 		}
 		if (GUI.Button (new Rect (480, 480, 300, 80), New_game)) 
 		{

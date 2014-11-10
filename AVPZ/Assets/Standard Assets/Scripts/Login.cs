@@ -73,6 +73,7 @@ public class Login : MonoBehaviour {
 			reader = _command.ExecuteReader(); 
 			if( reader.Read() ) { 
 				Debug.Log("Вход выполнен.");
+				Application.LoadLevel("Main");
 			}
 
 			else {
@@ -82,7 +83,7 @@ public class Login : MonoBehaviour {
 			_command.Dispose ();
 			_connection .Close ();
 			}
-			Application.LoadLevel("Main");
+
 		}
 
 		if(GUI.Button (new Rect(665,425,150,35),forgot, transparent)){
