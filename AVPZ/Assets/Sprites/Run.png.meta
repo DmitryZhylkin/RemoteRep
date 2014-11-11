@@ -12,6 +12,8 @@ TextureImporter:
     21300014: Run_7
     21300016: Run_8
     21300018: Run_9
+    21300020: Run_10
+    21300022: Run_19
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -53,105 +55,35 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: Run_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 65
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Run_1
       rect:
         serializedVersion: 2
-        x: 71
-        y: 0
-        width: 55
-        height: 82
+        x: 27
+        y: 34
+        width: 122
+        height: 429
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Run_2
-      rect:
-        serializedVersion: 2
-        x: 141
-        y: 0
-        width: 47
-        height: 87
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Run_3
       rect:
         serializedVersion: 2
-        x: 208
-        y: 0
-        width: 40
-        height: 90
+        x: 287
+        y: 26
+        width: 257
+        height: 432
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Run_4
+    - name: Run_2
       rect:
         serializedVersion: 2
-        x: 265
-        y: 5
-        width: 54
-        height: 85
+        x: 637
+        y: 34
+        width: 291
+        height: 434
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Run_5
-      rect:
-        serializedVersion: 2
-        x: 326
-        y: 0
-        width: 62
-        height: 85
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Run_6
-      rect:
-        serializedVersion: 2
-        x: 395
-        y: 0
-        width: 55
-        height: 82
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Run_7
-      rect:
-        serializedVersion: 2
-        x: 464
-        y: 0
-        width: 47
-        height: 87
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Run_8
-      rect:
-        serializedVersion: 2
-        x: 533
-        y: 0
-        width: 39
-        height: 90
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Run_9
-      rect:
-        serializedVersion: 2
-        x: 590
-        y: 3
-        width: 54
-        height: 85
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
