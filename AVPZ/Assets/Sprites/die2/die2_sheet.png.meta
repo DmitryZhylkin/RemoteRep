@@ -1,0 +1,591 @@
+fileFormatVersion: 2
+guid: 37b3076877534f64b94500f512093345
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: die2_sheet_0
+    21300002: die2_sheet_1
+    21300004: die2_sheet_2
+    21300006: die2_sheet_3
+    21300008: die2_sheet_4
+    21300010: die2_sheet_5
+    21300012: die2_sheet_6
+    21300014: die2_sheet_7
+    21300016: die2_sheet_8
+    21300018: die2_sheet_9
+    21300020: die2_sheet_10
+    21300022: die2_sheet_11
+    21300024: die2_sheet_12
+    21300026: die2_sheet_13
+    21300028: die2_sheet_14
+    21300030: die2_sheet_15
+    21300032: die2_sheet_16
+    21300034: die2_sheet_17
+    21300036: die2_sheet_18
+    21300038: die2_sheet_19
+    21300040: die2_sheet_20
+    21300042: die2_sheet_21
+    21300044: die2_sheet_22
+    21300046: die2_sheet_23
+    21300048: die2_sheet_24
+    21300050: die2_sheet_25
+    21300052: die2_sheet_26
+    21300054: die2_sheet_27
+    21300056: die2_sheet_28
+    21300058: die2_sheet_29
+    21300060: die2_sheet_30
+    21300062: die2_sheet_31
+    21300064: die2_sheet_32
+    21300066: die2_sheet_33
+    21300068: die2_sheet_34
+    21300070: die2_sheet_35
+    21300072: die2_sheet_36
+    21300074: die2_sheet_37
+    21300076: die2_sheet_38
+    21300078: die2_sheet_39
+    21300080: die2_sheet_40
+    21300082: die2_sheet_41
+    21300084: die2_sheet_42
+    21300086: die2_sheet_43
+    21300088: die2_sheet_44
+    21300090: die2_sheet_45
+    21300092: die2_sheet_46
+    21300094: die2_sheet_47
+    21300096: die2_sheet_48
+    21300098: die2_sheet_49
+    21300100: die2_sheet_50
+    21300102: die2_sheet_51
+    21300104: die2_sheet_52
+    21300106: die2_sheet_53
+    21300108: die2_sheet_54
+    21300110: die2_sheet_55
+    21300112: die2_sheet_56
+    21300114: die2_sheet_57
+    21300116: die2_sheet_58
+    21300118: die2_sheet_59
+    21300120: die2_sheet_60
+    21300122: die2_sheet_61
+    21300124: die2_sheet_62
+    21300126: die2_sheet_63
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: die2_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 641
+        width: 76
+        height: 109
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die2_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 641
+        width: 76
+        height: 108
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die2_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 641
+        width: 76
+        height: 108
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die2_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 641
+        width: 76
+        height: 107
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die2_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 641
+        width: 76
+        height: 106
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die2_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 638
+        width: 78
+        height: 108
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die2_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 636
+        width: 80
+        height: 108
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die2_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 635
+        width: 81
+        height: 108
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die2_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 508
+        width: 81
+        height: 108
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die2_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 508
+        width: 81
+        height: 107
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die2_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 508
+        width: 81
+        height: 105
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die2_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 509
+        width: 81
+        height: 103
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die2_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 509
+        width: 82
+        height: 101
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die2_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 508
+        width: 82
+        height: 99
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die2_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 507
+        width: 82
+        height: 98
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die2_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 506
+        width: 82
+        height: 96
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die2_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 381
+        width: 84
+        height: 93
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die2_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 380
+        width: 86
+        height: 90
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die2_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 379
+        width: 87
+        height: 86
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die2_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 378
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die2_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 377
+        width: 89
+        height: 81
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die2_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 376
+        width: 90
+        height: 77
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die2_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 376
+        width: 91
+        height: 72
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die2_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 375
+        width: 93
+        height: 67
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die2_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 249
+        width: 96
+        height: 61
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die2_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 245
+        width: 98
+        height: 62
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die2_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 249
+        width: 99
+        height: 57
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die2_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 247
+        width: 100
+        height: 59
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die2_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 247
+        width: 100
+        height: 60
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die2_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 249
+        width: 100
+        height: 60
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die2_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 245
+        width: 100
+        height: 66
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die2_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 247
+        width: 100
+        height: 66
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die2_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 121
+        width: 99
+        height: 69
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die2_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 121
+        width: 99
+        height: 71
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die2_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 124
+        width: 98
+        height: 69
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die2_sheet_41
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 126
+        width: 97
+        height: 69
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die2_sheet_42
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 122
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die2_sheet_43
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 122
+        width: 94
+        height: 76
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die2_sheet_44
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 126
+        width: 93
+        height: 73
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die2_sheet_45
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 125
+        width: 92
+        height: 75
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die2_sheet_54
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 103
+        height: 63
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die2_sheet_55
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 0
+        width: 109
+        height: 49
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die2_sheet_56
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 0
+        width: 112
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die2_sheet_57
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 0
+        width: 111
+        height: 39
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die2_sheet_58
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 0
+        width: 110
+        height: 39
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die2_sheet_59
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 0
+        width: 110
+        height: 38
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die2_sheet_60
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 0
+        width: 110
+        height: 38
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: die2_sheet_61
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 0
+        width: 110
+        height: 38
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
