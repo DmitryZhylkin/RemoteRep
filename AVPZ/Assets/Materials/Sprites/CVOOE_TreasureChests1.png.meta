@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: f6ec96752785b1b4984a2de88d4bc01b
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: CVOOE_TreasureChests1_0
+    21300002: CVOOE_TreasureChests1_1
+    21300004: CVOOE_TreasureChests1_2
+    21300006: CVOOE_TreasureChests1_3
+    21300008: CVOOE_TreasureChests1_4
+    21300010: CVOOE_TreasureChests1_5
+    21300012: CVOOE_TreasureChests1_6
+    21300014: CVOOE_TreasureChests1_7
+    21300016: CVOOE_TreasureChests1_8
+    21300018: CVOOE_TreasureChests1_9
+    21300020: CVOOE_TreasureChests1_10
+    21300022: CVOOE_TreasureChests1_11
+    21300024: CVOOE_TreasureChests1_12
+    21300026: CVOOE_TreasureChests1_13
+    21300028: CVOOE_TreasureChests1_14
+    21300030: CVOOE_TreasureChests1_15
+    21300032: CVOOE_TreasureChests1_16
+    21300034: CVOOE_TreasureChests1_17
+    21300036: CVOOE_TreasureChests1_18
+    21300038: CVOOE_TreasureChests1_19
+    21300040: CVOOE_TreasureChests1_20
+    21300042: CVOOE_TreasureChests1_21
+    21300044: CVOOE_TreasureChests1_22
+    21300046: CVOOE_TreasureChests1_23
+    21300048: CVOOE_TreasureChests1_24
+    21300050: CVOOE_TreasureChests1_25
+    21300052: CVOOE_TreasureChests1_26
+    21300054: CVOOE_TreasureChests1_27
+    21300056: CVOOE_TreasureChests1_28
+    21300058: CVOOE_TreasureChests1_29
+    21300060: CVOOE_TreasureChests1_30
+    21300062: CVOOE_TreasureChests1_31
+    21300064: CVOOE_TreasureChests1_32
+    21300066: CVOOE_TreasureChests1_33
+    21300068: CVOOE_TreasureChests1_34
+    21300070: CVOOE_TreasureChests1_35
+    21300072: CVOOE_TreasureChests1_36
+    21300074: CVOOE_TreasureChests1_37
+    21300076: CVOOE_TreasureChests1_38
+    21300078: CVOOE_TreasureChests1_39
+    21300080: CVOOE_TreasureChests1_40
+    21300082: CVOOE_TreasureChests1_41
+    21300084: CVOOE_TreasureChests1_42
+    21300086: CVOOE_TreasureChests1_43
+    21300088: CVOOE_TreasureChests1_44
+    21300090: CVOOE_TreasureChests1_45
+    21300092: CVOOE_TreasureChests1_46
+    21300094: CVOOE_TreasureChests1_47
+    21300096: CVOOE_TreasureChests1_48
+    21300098: CVOOE_TreasureChests1_49
+    21300100: CVOOE_TreasureChests1_50
+    21300102: CVOOE_TreasureChests1_51
+    21300104: CVOOE_TreasureChests1_52
+    21300106: CVOOE_TreasureChests1_53
+    21300108: CVOOE_TreasureChests1_54
+    21300110: CVOOE_TreasureChests1_55
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 0
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: CVOOE_TreasureChests1_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 563
+        width: 28
+        height: 23
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CVOOE_TreasureChests1_1
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 563
+        width: 28
+        height: 24
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CVOOE_TreasureChests1_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 563
+        width: 28
+        height: 25
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CVOOE_TreasureChests1_3
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 563
+        width: 29
+        height: 28
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CVOOE_TreasureChests1_4
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 563
+        width: 33
+        height: 28
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CVOOE_TreasureChests1_5
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 563
+        width: 34
+        height: 30
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CVOOE_TreasureChests1_6
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 525
+        width: 29
+        height: 24
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CVOOE_TreasureChests1_7
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 525
+        width: 29
+        height: 25
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CVOOE_TreasureChests1_8
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 525
+        width: 33
+        height: 27
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CVOOE_TreasureChests1_9
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 525
+        width: 35
+        height: 28
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CVOOE_TreasureChests1_10
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 525
+        width: 37
+        height: 30
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CVOOE_TreasureChests1_11
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 489
+        width: 29
+        height: 24
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CVOOE_TreasureChests1_12
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 489
+        width: 29
+        height: 25
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CVOOE_TreasureChests1_13
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 489
+        width: 33
+        height: 27
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CVOOE_TreasureChests1_14
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 489
+        width: 35
+        height: 28
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CVOOE_TreasureChests1_15
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 489
+        width: 37
+        height: 30
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CVOOE_TreasureChests1_16
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 451
+        width: 29
+        height: 24
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CVOOE_TreasureChests1_17
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 451
+        width: 29
+        height: 25
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CVOOE_TreasureChests1_18
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 451
+        width: 33
+        height: 27
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CVOOE_TreasureChests1_19
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 451
+        width: 35
+        height: 28
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CVOOE_TreasureChests1_20
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 451
+        width: 37
+        height: 30
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CVOOE_TreasureChests1_21
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 413
+        width: 29
+        height: 24
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CVOOE_TreasureChests1_22
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 413
+        width: 29
+        height: 25
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CVOOE_TreasureChests1_23
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 413
+        width: 33
+        height: 27
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CVOOE_TreasureChests1_24
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 413
+        width: 35
+        height: 28
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CVOOE_TreasureChests1_25
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 413
+        width: 37
+        height: 30
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CVOOE_TreasureChests1_26
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 390
+        width: 28
+        height: 13
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CVOOE_TreasureChests1_27
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 390
+        width: 28
+        height: 14
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CVOOE_TreasureChests1_28
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 385
+        width: 27
+        height: 18
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CVOOE_TreasureChests1_29
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 375
+        width: 28
+        height: 11
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CVOOE_TreasureChests1_30
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 370
+        width: 26
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CVOOE_TreasureChests1_31
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 374
+        width: 28
+        height: 6
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CVOOE_TreasureChests1_32
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 353
+        width: 28
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CVOOE_TreasureChests1_33
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 351
+        width: 28
+        height: 12
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CVOOE_TreasureChests1_34
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 309
+        width: 29
+        height: 40
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CVOOE_TreasureChests1_35
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 334
+        width: 29
+        height: 13
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CVOOE_TreasureChests1_36
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 330
+        width: 29
+        height: 18
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CVOOE_TreasureChests1_37
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 317
+        width: 28
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CVOOE_TreasureChests1_38
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 294
+        width: 29
+        height: 15
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CVOOE_TreasureChests1_39
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 252
+        width: 29
+        height: 40
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CVOOE_TreasureChests1_40
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 277
+        width: 29
+        height: 13
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CVOOE_TreasureChests1_41
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 273
+        width: 29
+        height: 18
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CVOOE_TreasureChests1_42
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 260
+        width: 28
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CVOOE_TreasureChests1_43
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 237
+        width: 29
+        height: 15
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CVOOE_TreasureChests1_44
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 195
+        width: 29
+        height: 40
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CVOOE_TreasureChests1_45
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 220
+        width: 29
+        height: 13
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CVOOE_TreasureChests1_46
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 216
+        width: 29
+        height: 18
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CVOOE_TreasureChests1_47
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 203
+        width: 28
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CVOOE_TreasureChests1_48
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 180
+        width: 29
+        height: 15
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CVOOE_TreasureChests1_49
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 138
+        width: 29
+        height: 40
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CVOOE_TreasureChests1_50
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 163
+        width: 29
+        height: 13
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CVOOE_TreasureChests1_51
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 159
+        width: 29
+        height: 18
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CVOOE_TreasureChests1_52
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 146
+        width: 28
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CVOOE_TreasureChests1_53
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 123
+        width: 29
+        height: 15
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CVOOE_TreasureChests1_54
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 26
+        width: 24
+        height: 70
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CVOOE_TreasureChests1_55
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 11
+        width: 47
+        height: 21
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
