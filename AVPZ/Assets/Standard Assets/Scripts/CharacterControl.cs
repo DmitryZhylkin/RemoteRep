@@ -74,7 +74,7 @@ public class CharacterControl : MonoBehaviour
 			//устанавливаем в аниматоре переменную в false
 			anim.SetBool("Ground", false);
 			//прикладываем силу вверх, чтобы персонаж подпрыгнул
-			rigidbody2D.AddForce(new Vector2(0, 300));				
+			rigidbody2D.AddForce(new Vector2(0, 600));				
 		}
 		if (Input.GetKey(KeyCode.F)) {
 			anim.Play("Attack(sword)");
