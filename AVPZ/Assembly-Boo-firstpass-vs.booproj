@@ -5,11 +5,11 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{248681B3-D26F-EA98-6AAC-1C183CAF9357}</ProjectGuid>
+	<ProjectGuid>{CF4C5363-B195-E11B-1DBC-2CF65110F884}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
-	<AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+	<AssemblyName>Assembly-Boo-firstpass</AssemblyName>
 	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
 	<FileAlignment>512</FileAlignment>
 	<BaseDirectory>Assets</BaseDirectory>
@@ -46,47 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
-     <Compile Include="Assets\Standard Assets\Image Effects (Pro Only)\BlurEffect.cs" />
-     <Compile Include="Assets\Standard Assets\Image Effects (Pro Only)\ColorCorrectionEffect.cs" />
-     <Compile Include="Assets\Standard Assets\Image Effects (Pro Only)\ContrastStretchEffect.cs" />
-     <Compile Include="Assets\Standard Assets\Image Effects (Pro Only)\GlowEffect.cs" />
-     <Compile Include="Assets\Standard Assets\Image Effects (Pro Only)\GrayscaleEffect.cs" />
-     <Compile Include="Assets\Standard Assets\Image Effects (Pro Only)\ImageEffectBase.cs" />
-     <Compile Include="Assets\Standard Assets\Image Effects (Pro Only)\ImageEffects.cs" />
-     <Compile Include="Assets\Standard Assets\Image Effects (Pro Only)\MotionBlur.cs" />
-     <Compile Include="Assets\Standard Assets\Image Effects (Pro Only)\NoiseEffect.cs" />
-     <Compile Include="Assets\Standard Assets\Image Effects (Pro Only)\SSAOEffect.cs" />
-     <Compile Include="Assets\Standard Assets\Image Effects (Pro Only)\SepiaToneEffect.cs" />
-     <Compile Include="Assets\Standard Assets\Image Effects (Pro Only)\TwirlEffect.cs" />
-     <Compile Include="Assets\Standard Assets\Image Effects (Pro Only)\VortexEffect.cs" />
-     <Compile Include="Assets\Standard Assets\Scripts\CharacterControl.cs" />
-     <Compile Include="Assets\Standard Assets\Scripts\Chest.cs" />
-     <Compile Include="Assets\Standard Assets\Scripts\Customize.cs" />
-     <Compile Include="Assets\Standard Assets\Scripts\Difficulty.cs" />
-     <Compile Include="Assets\Standard Assets\Scripts\Forgot_Password.cs" />
-     <Compile Include="Assets\Standard Assets\Scripts\General Scripts\ActivateTrigger.cs" />
-     <Compile Include="Assets\Standard Assets\Scripts\Login.cs" />
-     <Compile Include="Assets\Standard Assets\Scripts\Loop_Play.cs" />
-     <Compile Include="Assets\Standard Assets\Scripts\Main.cs" />
-     <Compile Include="Assets\Standard Assets\Scripts\NPCLOX.cs" />
-     <Compile Include="Assets\Standard Assets\Scripts\NPCLOX2.cs" />
-     <Compile Include="Assets\Standard Assets\Scripts\NPCloxfinish.cs" />
-     <Compile Include="Assets\Standard Assets\Scripts\ObjectDestroyer.cs" />
-     <Compile Include="Assets\Standard Assets\Scripts\Register.cs" />
-     <Compile Include="Assets\Standard Assets\Scripts\coinsCollect.cs" />
-     <Compile Include="Assets\Standard Assets\Scripts\otkriva4ka.cs" />
-     <Compile Include="Assets\Standard Assets\Scripts\pause.cs" />
-     <Compile Include="Assets\Standard Assets\Scripts\ubivawka.cs" />
-     <Compile Include="Assets\Standard Assets\Water (Basic)\Sources\Scripts\WaterSimple.cs" />
-     <Compile Include="Assets\Standard Assets\Water (Pro Only)\Sources\Scripts\Water.cs" />
-     <Compile Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\Displace.cs" />
-     <Compile Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\GerstnerDisplace.cs" />
-     <Compile Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\MeshContainer.cs" />
-     <Compile Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\PlanarReflection.cs" />
-     <Compile Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\SpecularLighting.cs" />
-     <Compile Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\WaterBase.cs" />
-     <Compile Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\WaterTile.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\NewBehaviourScript.boo" />
      <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
      <None Include="Assets\Standard Assets\Glass Refraction (Pro Only)\Sources\Shaders\Glass-Stained-BumpDistort.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
