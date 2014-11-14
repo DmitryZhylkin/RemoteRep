@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 
 Project("{63DA0DF0-48F7-52AE-617B-694DE06FDD2A}") = "AVPZ", "Assembly-CSharp-firstpass.csproj", "{248681B3-D26F-EA98-6AAC-1C183CAF9357}"
 EndProject
+Project("{63DA0DF0-48F7-52AE-617B-694DE06FDD2A}") = "AVPZ", "Assembly-CSharp.csproj", "{3802D301-60C4-5C72-8D00-E5E18DAFC5D1}"
+EndProject
 Project("{63DA0DF0-48F7-52AE-617B-694DE06FDD2A}") = "AVPZ", "Assembly-CSharp-Editor.csproj", "{495EF578-C967-9150-5CEC-F930395EBEE3}"
 EndProject
 Project("{63DA0DF0-48F7-52AE-617B-694DE06FDD2A}") = "AVPZ", "Assembly-UnityScript-firstpass.unityproj", "{C173B82B-1AE3-E143-AD30-05CA2F91946F}"
+EndProject
+Project("{63DA0DF0-48F7-52AE-617B-694DE06FDD2A}") = "AVPZ", "Assembly-UnityScript.unityproj", "{E272A9AC-DCC0-477D-27D3-559B93A4B791}"
 EndProject
 Project("{63DA0DF0-48F7-52AE-617B-694DE06FDD2A}") = "AVPZ", "Assembly-UnityScript-Editor.unityproj", "{C37E0DAB-8D34-2A6B-9D63-CF4D8041624E}"
 EndProject
@@ -19,6 +23,10 @@ Global
 		{248681B3-D26F-EA98-6AAC-1C183CAF9357}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{248681B3-D26F-EA98-6AAC-1C183CAF9357}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{248681B3-D26F-EA98-6AAC-1C183CAF9357}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3802D301-60C4-5C72-8D00-E5E18DAFC5D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3802D301-60C4-5C72-8D00-E5E18DAFC5D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3802D301-60C4-5C72-8D00-E5E18DAFC5D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3802D301-60C4-5C72-8D00-E5E18DAFC5D1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{495EF578-C967-9150-5CEC-F930395EBEE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{495EF578-C967-9150-5CEC-F930395EBEE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{495EF578-C967-9150-5CEC-F930395EBEE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -27,6 +35,10 @@ Global
 		{C173B82B-1AE3-E143-AD30-05CA2F91946F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C173B82B-1AE3-E143-AD30-05CA2F91946F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C173B82B-1AE3-E143-AD30-05CA2F91946F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E272A9AC-DCC0-477D-27D3-559B93A4B791}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E272A9AC-DCC0-477D-27D3-559B93A4B791}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E272A9AC-DCC0-477D-27D3-559B93A4B791}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E272A9AC-DCC0-477D-27D3-559B93A4B791}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C37E0DAB-8D34-2A6B-9D63-CF4D8041624E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C37E0DAB-8D34-2A6B-9D63-CF4D8041624E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C37E0DAB-8D34-2A6B-9D63-CF4D8041624E}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -35,7 +47,11 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
+<<<<<<< HEAD
 																																																																																																																																								GlobalSection(MonoDevelopProperties) = preSolution
+=======
+																																																																																																																																	GlobalSection(MonoDevelopProperties) = preSolution
+>>>>>>> origin/master
 =======
 																																																																																																		GlobalSection(MonoDevelopProperties) = preSolution
 >>>>>>> origin/master
