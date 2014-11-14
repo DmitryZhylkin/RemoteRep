@@ -39,17 +39,10 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-<<<<<<< HEAD
-	  <HintPath>D:/Programm Files/Unity/Data/Managed/UnityEngine.dll</HintPath>
-	</Reference>
-	<Reference Include="UnityEditor">
-	  <HintPath>D:/Programm Files/Unity/Data/Managed/UnityEditor.dll</HintPath>
-=======
 	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
 	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
->>>>>>> origin/master
 	</Reference>
   </ItemGroup>
   <ItemGroup>
@@ -182,23 +175,13 @@
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendForBloom.shader" />
  <Reference Include="Mono.Data.SqliteClient">
-<<<<<<< HEAD
- <HintPath>D:/GameDevelop/RemoteRep/AVPZ/Assets/Plugins/Mono.Data.SqliteClient.dll</HintPath>
+ <HintPath>C:/Users/V/Desktop/АВПЗ/RemoteRep/AVPZ/Assets/Plugins/Mono.Data.SqliteClient.dll</HintPath>
  </Reference>
  <Reference Include="System.Data">
- <HintPath>D:/GameDevelop/RemoteRep/AVPZ/Assets/Plugins/System.Data.dll</HintPath>
+ <HintPath>C:/Users/V/Desktop/АВПЗ/RemoteRep/AVPZ/Assets/Plugins/System.Data.dll</HintPath>
  </Reference>
  <Reference Include="System.EnterpriseServices">
- <HintPath>D:/GameDevelop/RemoteRep/AVPZ/Assets/Plugins/System.EnterpriseServices.dll</HintPath>
-=======
- <HintPath>D:/Unity/RemoteRep/AVPZ/Assets/Plugins/Mono.Data.SqliteClient.dll</HintPath>
- </Reference>
- <Reference Include="System.Data">
- <HintPath>D:/Unity/RemoteRep/AVPZ/Assets/Plugins/System.Data.dll</HintPath>
- </Reference>
- <Reference Include="System.EnterpriseServices">
- <HintPath>D:/Unity/RemoteRep/AVPZ/Assets/Plugins/System.EnterpriseServices.dll</HintPath>
->>>>>>> origin/master
+ <HintPath>C:/Users/V/Desktop/АВПЗ/RemoteRep/AVPZ/Assets/Plugins/System.EnterpriseServices.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -47,7 +47,6 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\DropCoin.js" />
-     <Compile Include="Assets\EnemyAI.js" />
      <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
      <None Include="Assets\Standard Assets\Glass Refraction (Pro Only)\Sources\Shaders\Glass-Stained-BumpDistort.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
@@ -138,13 +137,13 @@
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendForBloom.shader" />
  <Reference Include="Mono.Data.SqliteClient">
- <HintPath>D:/Unity/RemoteRep/AVPZ/Assets/Plugins/Mono.Data.SqliteClient.dll</HintPath>
+ <HintPath>C:/Users/V/Desktop/АВПЗ/RemoteRep/AVPZ/Assets/Plugins/Mono.Data.SqliteClient.dll</HintPath>
  </Reference>
  <Reference Include="System.Data">
- <HintPath>D:/Unity/RemoteRep/AVPZ/Assets/Plugins/System.Data.dll</HintPath>
+ <HintPath>C:/Users/V/Desktop/АВПЗ/RemoteRep/AVPZ/Assets/Plugins/System.Data.dll</HintPath>
  </Reference>
  <Reference Include="System.EnterpriseServices">
- <HintPath>D:/Unity/RemoteRep/AVPZ/Assets/Plugins/System.EnterpriseServices.dll</HintPath>
+ <HintPath>C:/Users/V/Desktop/АВПЗ/RemoteRep/AVPZ/Assets/Plugins/System.EnterpriseServices.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
