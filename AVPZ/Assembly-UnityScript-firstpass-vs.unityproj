@@ -39,10 +39,10 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>D:/R.R.F/Programmes/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>D:/Programm Files/Unity/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>D:/R.R.F/Programmes/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>D:/Programm Files/Unity/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
@@ -173,13 +173,13 @@
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendForBloom.shader" />
  <Reference Include="Mono.Data.SqliteClient">
- <HintPath>D:/RemoteRep/AVPZ/Assets/Plugins/Mono.Data.SqliteClient.dll</HintPath>
+ <HintPath>D:/GameDevelop/RemoteRep/AVPZ/Assets/Plugins/Mono.Data.SqliteClient.dll</HintPath>
  </Reference>
  <Reference Include="System.Data">
- <HintPath>D:/RemoteRep/AVPZ/Assets/Plugins/System.Data.dll</HintPath>
+ <HintPath>D:/GameDevelop/RemoteRep/AVPZ/Assets/Plugins/System.Data.dll</HintPath>
  </Reference>
  <Reference Include="System.EnterpriseServices">
- <HintPath>D:/RemoteRep/AVPZ/Assets/Plugins/System.EnterpriseServices.dll</HintPath>
+ <HintPath>D:/GameDevelop/RemoteRep/AVPZ/Assets/Plugins/System.EnterpriseServices.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

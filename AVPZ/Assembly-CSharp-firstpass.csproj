@@ -39,10 +39,10 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>D:/R.R.F/Programmes/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>D:/Programm Files/Unity/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>D:/R.R.F/Programmes/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>D:/Programm Files/Unity/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
@@ -68,10 +68,15 @@
      <Compile Include="Assets\Standard Assets\Scripts\Login.cs" />
      <Compile Include="Assets\Standard Assets\Scripts\Loop_Play.cs" />
      <Compile Include="Assets\Standard Assets\Scripts\Main.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\NPCLOX.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\NPCLOX2.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\NPCloxfinish.cs" />
      <Compile Include="Assets\Standard Assets\Scripts\ObjectDestroyer.cs" />
      <Compile Include="Assets\Standard Assets\Scripts\Register.cs" />
      <Compile Include="Assets\Standard Assets\Scripts\coinsCollect.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\otkriva4ka.cs" />
      <Compile Include="Assets\Standard Assets\Scripts\pause.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\ubivawka.cs" />
      <Compile Include="Assets\Standard Assets\Water (Basic)\Sources\Scripts\WaterSimple.cs" />
      <Compile Include="Assets\Standard Assets\Water (Pro Only)\Sources\Scripts\Water.cs" />
      <Compile Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\Displace.cs" />
@@ -171,13 +176,13 @@
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendForBloom.shader" />
  <Reference Include="Mono.Data.SqliteClient">
- <HintPath>D:/RemoteRep/AVPZ/Assets/Plugins/Mono.Data.SqliteClient.dll</HintPath>
+ <HintPath>D:/GameDevelop/RemoteRep/AVPZ/Assets/Plugins/Mono.Data.SqliteClient.dll</HintPath>
  </Reference>
  <Reference Include="System.Data">
- <HintPath>D:/RemoteRep/AVPZ/Assets/Plugins/System.Data.dll</HintPath>
+ <HintPath>D:/GameDevelop/RemoteRep/AVPZ/Assets/Plugins/System.Data.dll</HintPath>
  </Reference>
  <Reference Include="System.EnterpriseServices">
- <HintPath>D:/RemoteRep/AVPZ/Assets/Plugins/System.EnterpriseServices.dll</HintPath>
+ <HintPath>D:/GameDevelop/RemoteRep/AVPZ/Assets/Plugins/System.EnterpriseServices.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

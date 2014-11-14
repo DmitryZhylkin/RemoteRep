@@ -15,6 +15,7 @@ TextureImporter:
     21300020: Run_10
     21300022: Run_19
     21300024: Run_3
+    21300026: Run_6
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -86,16 +87,6 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Run_3
-      rect:
-        serializedVersion: 2
-        x: 1586
-        y: 54
-        width: 258
-        height: 401
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Run_4
       rect:
         serializedVersion: 2
@@ -126,13 +117,23 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Run_6
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 50
+        width: 218
+        height: 407
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Run_7
       rect:
         serializedVersion: 2
-        x: 218
-        y: 50
-        width: 192
-        height: 409
+        x: 1578
+        y: 61
+        width: 274
+        height: 386
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
