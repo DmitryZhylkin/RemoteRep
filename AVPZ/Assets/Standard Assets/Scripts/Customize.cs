@@ -22,8 +22,8 @@ public class Customize: MonoBehaviour {
 
 	void Start()
 	{ 
-		character_man = (Texture)Resources.Load ("char_new");
-		character_woman = (Texture)Resources.Load ("char_new");
+		character_man = (Texture)Resources.Load ("man1");
+		character_woman = (Texture)Resources.Load ("woman2");
 		char_choose = (Texture)Resources.Load ("char_choose");
 		male_label = (Texture)Resources.Load ("male_label");
 		female_label = (Texture)Resources.Load ("female_label");
@@ -50,8 +50,8 @@ public class Customize: MonoBehaviour {
 		GUI.BeginGroup (new Rect (Screen.width / 2 - 500, Screen.height / 2 - 500, 1000, 1000));
 		GUI.Box (new Rect (250, 230, 600, 550), "");
 		GUI.DrawTexture (new Rect (300,120,500,100), char_choose);
-		GUI.DrawTexture (new Rect (330, 340, 100, 300), character_man);
-		GUI.DrawTexture (new Rect (650, 340, 100, 300), character_woman);
+		GUI.DrawTexture (new Rect (260, 293, 235, 435), character_man);
+		GUI.DrawTexture (new Rect (560, 310, 235, 393), character_woman);
 		GUI.DrawTexture (new Rect (890, 250, 100, 60), head);
 		GUI.DrawTexture (new Rect (890, 380, 100, 60), body);
 		GUI.DrawTexture (new Rect (880, 510, 125, 60), weapon);
