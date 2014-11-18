@@ -8,12 +8,14 @@ public class Main: MonoBehaviour {
 	private Texture Logout;
 	private Texture Quit;
 	private Texture Logo;
+	private Texture LeaderBoard;
 	public AudioClip menu_click;
 	public static string nick = "";
 
 	
 	void Start()
 	{ 
+		LeaderBoard = (Texture)Resources.Load("leaderboard");
 		Continue = (Texture)Resources.Load("continue"); 
 		New_game = (Texture)Resources.Load ("new_game");
 		Logout = (Texture)Resources.Load ("logout");
@@ -42,11 +44,15 @@ public class Main: MonoBehaviour {
 		{
 				Application.LoadLevel ("Difficulty");
 		}
-		if (GUI.Button (new Rect (505, 560, 300, 80), Logout))
+		if (GUI.Button (new Rect (505, 560, 300, 80), LeaderBoard))
+		{
+			Application.LoadLevel ("Leaderboard");
+		}
+		if (GUI.Button (new Rect (505, 640, 300, 80), Logout))
 		{
 			Application.LoadLevel ("Login");
 		}
-		if (GUI.Button (new Rect (520, 640, 300, 80), Quit)) 
+		if (GUI.Button (new Rect (520, 720, 300, 80), Quit)) 
 		{
 			Application.Quit ();
 		}
