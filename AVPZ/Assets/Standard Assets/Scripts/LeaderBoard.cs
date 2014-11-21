@@ -9,6 +9,7 @@ public class LeaderBoard : MonoBehaviour {
 
 	private Texture Back;
 	IDataReader reader;
+	string result="";
 	//public AudioClip menu_click;
 	void Start () {
 		Back = (Texture)Resources.Load("back");
@@ -37,7 +38,11 @@ public class LeaderBoard : MonoBehaviour {
 		{
 			Application.LoadLevel ("Main");
 		}
-		GUI.Label (new Rect(400,400,300,300),"тут типо данные из базы");
+		/*while (reader.Read())
+		{
+			result += string.Format("Nick: {0}\nScore: {1}", reader.GetString(1), reader.GetString(2));
+		}*/
+		GUI.Label (new Rect(400,400,300,300),result);
 		GUI.EndGroup ();
 	}
 

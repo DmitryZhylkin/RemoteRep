@@ -4,7 +4,7 @@ using System.Collections;
 public class coinsCollect : MonoBehaviour
 {
 
-	public int score = 0;
+	public static int score = 0;
 	void OnTriggerEnter2D(Collider2D other)
 	{
 		if (other.tag == "coin")

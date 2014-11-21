@@ -64,6 +64,7 @@
      <Compile Include="Assets\Standard Assets\Scripts\Chest.cs" />
      <Compile Include="Assets\Standard Assets\Scripts\Customize.cs" />
      <Compile Include="Assets\Standard Assets\Scripts\Difficulty.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\Finish.cs" />
      <Compile Include="Assets\Standard Assets\Scripts\Forgot_Password.cs" />
      <Compile Include="Assets\Standard Assets\Scripts\General Scripts\ActivateTrigger.cs" />
      <Compile Include="Assets\Standard Assets\Scripts\LeaderBoard.cs" />
