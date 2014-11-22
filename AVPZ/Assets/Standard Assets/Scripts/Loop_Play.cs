@@ -7,6 +7,11 @@ public class Loop_Play : MonoBehaviour {
 	public static Loop_Play Instance {
 		get { return instance; }
 	}
+	void Update(){
+		if (Application.loadedLevelName == "Level_1") {
+			audio.Stop ();
+		}
+	}
 	void Awake() {
 		if (instance != null && instance != this) {
 			Destroy(this.gameObject);
@@ -15,5 +20,6 @@ public class Loop_Play : MonoBehaviour {
 			instance = this;
 		}
 		DontDestroyOnLoad(this.gameObject);
+
 	}
 }

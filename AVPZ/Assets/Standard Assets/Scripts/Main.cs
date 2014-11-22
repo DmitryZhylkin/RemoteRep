@@ -44,7 +44,7 @@ public class Main: MonoBehaviour {
 		{
 				Application.LoadLevel ("Difficulty");
 		}
-		if (GUI.Button (new Rect (505, 560, 300, 80), LeaderBoard))
+		if (GUI.Button (new Rect (485, 560, 300, 80), LeaderBoard))
 		{
 			Application.LoadLevel ("Leaderboard");
 		}
