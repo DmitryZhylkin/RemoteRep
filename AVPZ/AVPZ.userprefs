@@ -1,13 +1,6 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Standard Assets\Scripts\CharacterControl.cs">
-    <Files>
-      <File FileName="Assets\Standard Assets\Scripts\Main.cs" Line="24" Column="56" />
-      <File FileName="Assets\Standard Assets\Scripts\coinsCollect.cs" Line="6" Column="32" />
-      <File FileName="Assets\Standard Assets\Scripts\Chest.cs" Line="18" Column="3" />
-      <File FileName="Assets\Standard Assets\Scripts\CharacterControl.cs" Line="88" Column="12" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
