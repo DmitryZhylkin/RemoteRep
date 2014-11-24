@@ -97,7 +97,7 @@ public class CharacterControl : MonoBehaviour
 			audio.volume = 2F;
 			audio.Play ();
 		}
-		if (Input.GetKey(KeyCode.F)) {
+		if (Input.GetButtonDown("Attack")) {
 			anim.Play("Attack(sword)");
 		} 
 		else if (Input.GetKeyUp(KeyCode.F)) {
