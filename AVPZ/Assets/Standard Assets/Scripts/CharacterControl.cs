@@ -5,6 +5,7 @@ public class CharacterControl : MonoBehaviour
 {
 	public AudioClip jump;
 	public AudioClip move;
+	public AudioClip attack;
 	//переменная для установки макс. скорости персонажа
 	public float maxSpeed = 10f; 
 	//переменная для определения направления персонажа вправо/влево
@@ -30,6 +31,7 @@ public class CharacterControl : MonoBehaviour
 		jump = (AudioClip)Resources.Load ("jump");
 		move = (AudioClip)Resources.Load ("steps");
 		anim = GetComponent<Animator>();
+		attack = (AudioClip)Resources.Load ("sword");
 		Time.timeScale = 1;
 	}
 
@@ -99,6 +101,8 @@ public class CharacterControl : MonoBehaviour
 		}
 		if (Input.GetButtonDown("Attack")) {
 			anim.Play("Attack(sword)");
+			audio.PlayOneShot(attack);
+			audio.volume = 1F;
 		} 
 		else if (Input.GetKeyUp(KeyCode.F)) {
 			anim.Play("Idle");
