@@ -9,7 +9,7 @@ public class NPCLOX : MonoBehaviour {
 	void OnGUI(){
 		if (text == true) {
 			 
-			 
+			Screen.showCursor=true;
 		 
 			GUI.Box (new Rect (Screen.width/2 -25 , Screen.height/2 -25, 300, 150),""); 
 			GUI.Label (new Rect (Screen.width/2 -25 , Screen.height/2 -25, 300, 300),"Приветствую тебя путник ! " +
@@ -19,6 +19,7 @@ public class NPCLOX : MonoBehaviour {
 			{
 				Time.timeScale = 1;
 				text = false;
+				Screen.showCursor=false;
 			}
 
 			}
