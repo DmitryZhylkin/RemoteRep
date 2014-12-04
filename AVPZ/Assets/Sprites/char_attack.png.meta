@@ -13,6 +13,7 @@ TextureImporter:
     21300016: char_attack_8
     21300018: char_attack_9
     21300020: char_attack_10
+    21300022: char_attack_10
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -57,110 +58,110 @@ TextureImporter:
     - name: char_attack_0
       rect:
         serializedVersion: 2
-        x: 27
-        y: 464
-        width: 173
-        height: 284
+        x: 29
+        y: 481
+        width: 193
+        height: 318
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: char_attack_1
       rect:
         serializedVersion: 2
-        x: 222
-        y: 455
-        width: 202
-        height: 284
+        x: 247
+        y: 476
+        width: 236
+        height: 318
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: char_attack_2
       rect:
         serializedVersion: 2
-        x: 436
-        y: 455
-        width: 176
-        height: 289
+        x: 483
+        y: 485
+        width: 195
+        height: 313
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: char_attack_3
       rect:
         serializedVersion: 2
-        x: 616
-        y: 448
-        width: 169
-        height: 339
+        x: 696
+        y: 475
+        width: 181
+        height: 373
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: char_attack_4
-      rect:
-        serializedVersion: 2
-        x: 798
-        y: 447
-        width: 170
-        height: 349
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: char_attack_5
       rect:
         serializedVersion: 2
-        x: 972
-        y: 443
-        width: 228
-        height: 305
+        x: 899
+        y: 474
+        width: 186
+        height: 379
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: char_attack_6
       rect:
         serializedVersion: 2
-        x: 2
-        y: 111
-        width: 238
-        height: 299
+        x: 16
+        y: 101
+        width: 254
+        height: 316
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: char_attack_7
       rect:
         serializedVersion: 2
-        x: 786
-        y: 76
-        width: 230
-        height: 327
+        x: 837
+        y: 100
+        width: 236
+        height: 315
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: char_attack_8
       rect:
         serializedVersion: 2
-        x: 1054
-        y: 75
-        width: 204
-        height: 323
+        x: 1120
+        y: 99
+        width: 197
+        height: 317
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: char_attack_9
       rect:
         serializedVersion: 2
-        x: 244
-        y: 91
-        width: 262
-        height: 319
+        x: 271
+        y: 101
+        width: 272
+        height: 325
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: char_attack_10
       rect:
         serializedVersion: 2
-        x: 508
-        y: 91
-        width: 269
-        height: 311
+        x: 544
+        y: 103
+        width: 291
+        height: 317
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: char_attack_10
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 475
+        width: 249
+        height: 332
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}

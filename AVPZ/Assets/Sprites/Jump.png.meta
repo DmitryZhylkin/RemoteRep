@@ -57,70 +57,70 @@ TextureImporter:
     - name: Jump_0
       rect:
         serializedVersion: 2
-        x: 96
-        y: 38
-        width: 182
-        height: 448
+        x: 26
+        y: 30
+        width: 88
+        height: 319
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Jump_1
       rect:
         serializedVersion: 2
-        x: 445
-        y: 38
-        width: 193
-        height: 410
+        x: 172
+        y: 31
+        width: 158
+        height: 322
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Jump_2
       rect:
         serializedVersion: 2
-        x: 773
-        y: 49
-        width: 213
-        height: 387
+        x: 353
+        y: 27
+        width: 157
+        height: 328
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Jump_3
       rect:
         serializedVersion: 2
-        x: 1117
-        y: 49
-        width: 215
-        height: 389
+        x: 526
+        y: 28
+        width: 162
+        height: 321
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Jump_4
       rect:
         serializedVersion: 2
-        x: 1451
-        y: 52
-        width: 201
-        height: 402
+        x: 719
+        y: 27
+        width: 149
+        height: 319
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Jump_5
       rect:
         serializedVersion: 2
-        x: 1778
-        y: 50
-        width: 205
-        height: 397
+        x: 907
+        y: 24
+        width: 146
+        height: 320
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Jump_6
       rect:
         serializedVersion: 2
-        x: 2129
-        y: 45
-        width: 195
-        height: 388
+        x: 1084
+        y: 21
+        width: 159
+        height: 321
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,6 +131,16 @@ TextureImporter:
         y: 37
         width: 150
         height: 451
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Jump_8
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 23
+        width: 88
+        height: 318
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
