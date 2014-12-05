@@ -57,26 +57,6 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: Run_1
-      rect:
-        serializedVersion: 2
-        x: 39
-        y: 48
-        width: 122
-        height: 429
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Run_3
-      rect:
-        serializedVersion: 2
-        x: 440
-        y: 50
-        width: 211
-        height: 404
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Run_2
       rect:
         serializedVersion: 2
@@ -87,53 +67,93 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Run_1
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 359
+        width: 88
+        height: 317
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Run_2
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 359
+        width: 145
+        height: 318
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Run_3
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 360
+        width: 156
+        height: 317
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Run_4
       rect:
         serializedVersion: 2
-        x: 1254
-        y: 46
-        width: 284
-        height: 417
+        x: 697
+        y: 363
+        width: 208
+        height: 314
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Run_5
       rect:
         serializedVersion: 2
-        x: 999
-        y: 56
-        width: 229
-        height: 415
+        x: 980
+        y: 361
+        width: 162
+        height: 319
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Run_6
       rect:
         serializedVersion: 2
-        x: 681
-        y: 58
-        width: 270
-        height: 405
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Run_6
-      rect:
-        serializedVersion: 2
-        x: 205
-        y: 50
-        width: 218
-        height: 407
+        x: 71
+        y: 49
+        width: 152
+        height: 310
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Run_7
       rect:
         serializedVersion: 2
-        x: 1578
-        y: 61
-        width: 274
-        height: 386
+        x: 340
+        y: 35
+        width: 196
+        height: 319
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Run_8
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 45
+        width: 197
+        height: 309
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Run_9
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 48
+        width: 155
+        height: 313
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
