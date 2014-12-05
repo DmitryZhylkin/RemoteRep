@@ -8,5 +8,9 @@ public class ubivawka : MonoBehaviour {
 			coinsCollect.score=0;
 			Application.LoadLevel("Level_1");
 		}
+		if(col.tag == "DieSpikes"){
+			coinsCollect.score=0;
+			Application.LoadLevel("Level_2");
+		}
 	}
 }
