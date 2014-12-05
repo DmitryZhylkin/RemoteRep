@@ -62,6 +62,7 @@ public class Login : MonoBehaviour {
 		if (GUI.Button (new Rect (490, 480, 100, 50), login_new, transparent)) {
 			Main.nick=LoginString;
 			Finish.loginLeader=LoginString;
+			Shop.nick=LoginString;
 			IDataReader reader;
 			string _DBName = "URI=file:Assets/DB/Unity.db";
 			IDbConnection _connection = new SqliteConnection (_DBName);

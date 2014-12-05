@@ -13,9 +13,7 @@ public class Finish : MonoBehaviour {
 	string checkpoint = "";
 	void OnTriggerEnter2D(Collider2D other)
 	{
-		//if (Application.level == "Level_1") {
 			checkpoint="1";
-		//}
 		if (other.tag == "konez")
 		{
 			int score = coinsCollect.score;
@@ -34,6 +32,7 @@ public class Finish : MonoBehaviour {
 			_command = null;
 			_connection .Close ();
 			_connection = null;
+			Application.LoadLevel("Shop");
 		}
 	} 
 }
