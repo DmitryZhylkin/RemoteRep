@@ -1,8 +1,10 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Standard Assets\Scripts\Shop.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Standard Assets\Scripts\Main.cs">
     <Files>
-      <File FileName="Assets\Standard Assets\Scripts\Shop.cs" Line="30" Column="31" />
+      <File FileName="Assets\Standard Assets\Scripts\Main.cs" Line="57" Column="37" />
+      <File FileName="Assets\Standard Assets\Scripts\Register.cs" Line="84" Column="172" />
+      <File FileName="Assets\Standard Assets\Scripts\Login.cs" Line="77" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -81,7 +81,7 @@ public class Register : MonoBehaviour {
 			
 			_connection .Open ();
 			
-			sql = "INSERT INTO Players (Login, Password, Email, Checkpoint, Score) VALUES ('"+LoginString+"', '"+PassString+"', '"+EmailString+"', '1', 0);";
+			sql = "INSERT INTO Players (Login, Password, Email, Checkpoint, Score,Stars,armor2,armor3,armor4) VALUES ('"+LoginString+"', '"+PassString+"', '"+EmailString+"', '0', 0,0,0,0,0);";
 			_command.CommandText = sql;
 			_command.ExecuteNonQuery ();
 			_command.Dispose ();

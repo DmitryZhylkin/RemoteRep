@@ -9,7 +9,7 @@ using System.Net.Security;
 using System.Security.Cryptography.X509Certificates;
 
 public class Finish : MonoBehaviour {
-	public static string loginLeader="";
+	public static string nick="";
 	string checkpoint = "";
 	void OnTriggerEnter2D(Collider2D other)
 	{
@@ -25,7 +25,7 @@ public class Finish : MonoBehaviour {
 			
 			_connection .Open ();
 			
-			sql = "UPDATE Players SET Score= Score+'"+score+"', Checkpoint='"+checkpoint+"'WHERE Login='"+loginLeader+"';";
+			sql = "UPDATE Players SET Score= Score+'"+score+"', Checkpoint='"+checkpoint+"'WHERE Login='"+nick+"';";
 			_command.CommandText = sql;
 			_command.ExecuteNonQuery ();
 			_command.Dispose ();

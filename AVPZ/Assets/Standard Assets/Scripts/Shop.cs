@@ -1,36 +1,36 @@
-﻿
-   using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 using System.Data;
 using Mono.Data.SqliteClient;
 using System.Data.SqlClient;
 public class Shop : MonoBehaviour {
 
-	public Texture shop;
-	public Texture Continue;
-	public Texture mainmenu;
-	public AudioClip menu_click;
-	public Texture buy;
-	public Texture back;
-	public Texture soon;
-	public Texture use;
-	public Texture equip;
-	public Texture man_default;
-	public Texture man_2;
-	public Texture man_3;
-	public Texture man_4;
-	public Texture choose_skin;
-	public Texture newbie;
-	public Texture peasant;
-	public Texture warrior;
-	public Texture master;
-	public int armor2 = 0;
-	public int armor3 = 0;
-	public int armor4 = 0;
+	private Texture shop;
+	private Texture Continue;
+	private Texture mainmenu;
+	private AudioClip menu_click;
+	private Texture buy;
+	private Texture back;
+	private Texture soon;
+	private Texture use;
+	private Texture equip;
+	private Texture man_default;
+	private Texture man_2;
+	private Texture man_3;
+	private Texture man_4;
+	private Texture choose_skin;
+	private Texture newbie;
+	private Texture peasant;
+	private Texture warrior;
+	private Texture master;
+	private int armor2 = 0;
+	private int armor3 = 0;
+	private int armor4 = 0;
 	public static string nick = "";
 
 	void Start () 
 	{
+		Screen.showCursor = true;
 		menu_click = (AudioClip)Resources.Load ("menu_click");
 		shop = (Texture)Resources.Load ("shop");
 		Continue = (Texture)Resources.Load ("continue");
@@ -57,7 +57,7 @@ public class Shop : MonoBehaviour {
 	
 		_connection .Open ();
 		
-		sql = "Select armor2, armor3, armor4 From Players where Login = 'dima';";
+		sql = "Select armor2, armor3, armor4 From Players where Login = '"+nick+"';";
 		_command.CommandText = sql;
 		_command.ExecuteNonQuery ();
 		IDataReader reader = _command.ExecuteReader();
@@ -176,7 +176,7 @@ public class Shop : MonoBehaviour {
 		}
 		if (GUI.Button (new Rect (800, 800, 230, 100), Continue)) 
 		{
-			//Загрузка следующего уровня
+			Application.LoadLevel("Level_2");
 		}
 		if (GUI.Button (new Rect (220, 810, 200, 75), mainmenu))
 		{
