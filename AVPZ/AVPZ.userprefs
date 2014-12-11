@@ -1,10 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Standard Assets\Scripts\Main.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Standard Assets\Scripts\EnemyDie.cs">
     <Files>
-      <File FileName="Assets\Standard Assets\Scripts\Main.cs" Line="57" Column="37" />
-      <File FileName="Assets\Standard Assets\Scripts\Register.cs" Line="84" Column="172" />
-      <File FileName="Assets\Standard Assets\Scripts\Login.cs" Line="77" Column="1" />
+      <File FileName="Assets\Standard Assets\Scripts\EnemyDie.cs" Line="7" Column="31" />
+      <File FileName="Assets\Standard Assets\Scripts\CharacterControl.cs" Line="1" Column="1" />
+      <File FileName="Assets\Standard Assets\Scripts\Difficulty.cs" Line="1" Column="1" />
+      <File FileName="Assets\Standard Assets\Scripts\Shop.cs" Line="1" Column="23" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -4,6 +4,7 @@ using System.Collections;
 public class NPCLOX : MonoBehaviour {
 
 	public bool text=false;
+	bool firstTime=true;
 	 
 
 	void OnGUI(){
@@ -20,6 +21,7 @@ public class NPCLOX : MonoBehaviour {
 				Time.timeScale = 1;
 				text = false;
 				Screen.showCursor=false;
+				firstTime=false;
 			}
 
 			}
@@ -33,7 +35,7 @@ public class NPCLOX : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D col){
 		//if (col.gameObject.name == "npcLOX")
-		if(col.tag == "NPC"){text = true;
+		if(col.tag == "NPC"&&firstTime){text = true;
 			Time.timeScale = 0;
 			OnGUI();
 		}

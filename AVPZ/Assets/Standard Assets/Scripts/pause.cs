@@ -84,7 +84,7 @@ public class pause : MonoBehaviour {
 					if (GUI.Button(new Rect(Screen.width/2-90,Screen.height/2-170,280,80), Graphic, transparent)) {
 						graphics = true;
 					}
-					if (GUI.Button(new Rect(Screen.width/2-100,Screen.height/2-85,280,80), Resolution )){
+					if (GUI.Button(new Rect(Screen.width/2-100,Screen.height/2-85,280,80), Resolution, transparent )){
 						resolution=true;
 					}
 					if (GUI.Button(new Rect(Screen.width/2-70,Screen.height/2-0,280,80), Back, transparent)) {

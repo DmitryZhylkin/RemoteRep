@@ -21,6 +21,10 @@ public class CharacterControl : MonoBehaviour
 	private float groundRadius = 0.2f;
 	//ссылка на слой, представляющий землю
 	public LayerMask whatIsGround;
+	public static int Health = 100;
+	bool nearEnemy=false;
+	int selectedDifficult=Difficulty.difficult;
+	//int selectedDifficult=2;
 	
 	/// <summary>
 	/// Начальная инициализация
@@ -28,6 +32,7 @@ public class CharacterControl : MonoBehaviour
 
 	private void Start()
 	{
+		Debug.Log (selectedDifficult);
 		jump = (AudioClip)Resources.Load ("jump");
 		move = (AudioClip)Resources.Load ("steps");
 		anim = GetComponent<Animator>();
@@ -39,8 +44,34 @@ public class CharacterControl : MonoBehaviour
 	/// Выполняем действия в методе FixedUpdate, т. к. в компоненте Animator персонажа
 	/// выставлено значение Animate Physics = true и анимация синхронизируется с расчетами физики
 	/// </summary>
-	private void FixedUpdate()
-	{
+	/// 
+	 void OnTriggerEnter2D(Collider2D enemy){
+	if (enemy.tag == "Enemy") {
+		Debug.Log ("intrigger");
+		nearEnemy=true;
+		//Health=Health-50;
+	}
+}
+void OntriggerExit2D(Collider2D enemy){
+	if (enemy.tag == "Enemy") {
+		nearEnemy=false;		
+	}
+}
+	private void FixedUpdate(){
+		if (nearEnemy) {
+			if(Input.GetKeyDown(KeyCode.F)){
+				if(selectedDifficult==1){
+					Health=Health-50;
+				}
+				else if(selectedDifficult==2){
+					Health=Health-35;
+				}
+				else if(selectedDifficult==3){
+					Health=Health-20;
+				}
+			}
+		}		
+			
 				//определяем, на земле ли персонаж
 				isGrounded = Physics2D.OverlapCircle (groundCheck.position, groundRadius, whatIsGround); 
 				//устанавливаем соответствующую переменную в аниматоре
@@ -99,11 +130,13 @@ public class CharacterControl : MonoBehaviour
 			audio.volume = 2F;
 			audio.Play ();
 		}
-		if (Input.GetButtonDown("Attack")) {
-			anim.Play("Attack(sword)");
-			audio.PlayOneShot(attack);
-			audio.volume = 1F;
-		} 		
+		if (Input.GetKeyDown (KeyCode.F)) {
+						anim.Play ("Attack(sword)");
+						audio.PlayOneShot (attack);
+						audio.volume = 1F;
+				} else if (Input.GetKeyUp (KeyCode.F)) {
+					anim.Play("Idle");
+				}
 	}
 	
 	/// <summary>

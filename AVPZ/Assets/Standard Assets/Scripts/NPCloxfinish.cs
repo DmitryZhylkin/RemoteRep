@@ -6,12 +6,11 @@ public class NPCloxfinish : MonoBehaviour {
 
 		
 		public bool text=false;
-		
+	bool firstTime=true;
 		
 		void OnGUI(){
-			if (text == true) {
-				
-				
+			if (text == true) {				
+			Screen.showCursor=true;
 				
 				GUI.Box (new Rect (Screen.width/2 -25 , Screen.height/2 -25, 300, 150),""); 
 				GUI.Label (new Rect (Screen.width/2 -25 , Screen.height/2 -25, 300, 300),"Поздравляю тебя, путник ! Ты смог преодолеть " +
@@ -21,20 +20,17 @@ public class NPCloxfinish : MonoBehaviour {
 				{
 					Time.timeScale = 1;
 					text = false;
+				Screen.showCursor=false;
 				}
 				
 			}
-			
-			
-			//900, 200, 300, 300
-			//990, 400, 100, 50
 			
 		}
 		
 		
 		void OnTriggerEnter2D(Collider2D col){
 			//if (col.gameObject.name == "npcLOX")
-			if(col.tag == "NPCfinish"){text = true;
+		if(col.tag == "NPCfinish"&&firstTime){text = true;
 				Time.timeScale = 0;
 				OnGUI();
 			}

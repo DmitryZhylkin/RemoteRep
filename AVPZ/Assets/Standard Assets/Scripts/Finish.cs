@@ -13,7 +13,7 @@ public class Finish : MonoBehaviour {
 	string checkpoint = "";
 	void OnTriggerEnter2D(Collider2D other)
 	{
-			checkpoint="1";
+			checkpoint="2";
 		if (other.tag == "konez")
 		{
 			int score = coinsCollect.score;

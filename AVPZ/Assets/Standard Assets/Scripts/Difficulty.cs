@@ -8,6 +8,7 @@ public class Difficulty : MonoBehaviour {
 	private Texture hard;
 	private Texture back;
 	public AudioClip menu_click;
+	public static int difficult=0; 
 
 
 	void Start()
@@ -33,13 +34,16 @@ public class Difficulty : MonoBehaviour {
 		GUI.DrawTexture (new Rect (480, 100, 320, 150), diff);
 
 		if (GUI.Button (new Rect (475, 380, 300, 100), easy)) {
+			difficult=1;
 			Application.LoadLevel ("Customize");
 		}
 		if (GUI.Button (new Rect (500, 480, 250, 70), medium)){
+			difficult=2;
 			Application.LoadLevel("Customize");
 			Debug.Log("OK");
 		}
 		if (GUI.Button (new Rect (500, 560, 250, 70), hard)){
+			difficult=3;
 			Application.LoadLevel("Customize");
 		}
 		if (GUI.Button (new Rect (500, 640, 250, 70), back)) {
