@@ -14,7 +14,7 @@ public class Main: MonoBehaviour {
 	private Texture LeaderBoard;
 	public AudioClip menu_click;
 	public static string nick = "";
-	int Checkpoint=10;
+	public static int Checkpoint;
 	
 	void Start()
 	{ 
@@ -69,7 +69,7 @@ public class Main: MonoBehaviour {
 			case 3: Application.LoadLevel("Level_3");
 				break;
 			default:Application.LoadLevel("Difficulty");
-			break;
+				break;
 			}
 		}
 		if (GUI.Button (new Rect (480, 480, 300, 80), New_game)) 

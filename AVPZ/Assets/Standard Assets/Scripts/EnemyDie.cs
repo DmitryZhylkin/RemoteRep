@@ -13,6 +13,7 @@ public class EnemyDie : MonoBehaviour {
 				 
 				am.enabled=false;
 				Destroy(this.gameObject);
+				CharacterControl.Health=100;
 			}
 			
 		}

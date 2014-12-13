@@ -23,6 +23,7 @@ public class CharacterControl : MonoBehaviour
 	public LayerMask whatIsGround;
 	public static int Health = 100;
 	bool nearEnemy=false;
+	bool nearBoss=false;
 	int selectedDifficult=Difficulty.difficult;
 	//int selectedDifficult=2;
 	
@@ -47,15 +48,21 @@ public class CharacterControl : MonoBehaviour
 	/// 
 	 void OnTriggerEnter2D(Collider2D enemy){
 	if (enemy.tag == "Enemy") {
-		Debug.Log ("intrigger");
+		Debug.Log ("NearEnemy");
 		nearEnemy=true;
-		//Health=Health-50;
 	}
+		if (enemy.tag == "Boss") {
+			Debug.Log("NearBoss");
+			nearBoss=true;		
+		}
 }
 void OntriggerExit2D(Collider2D enemy){
 	if (enemy.tag == "Enemy") {
 		nearEnemy=false;		
 	}
+		if (enemy.tag == "Boss") {
+			nearBoss=false;		
+		}
 }
 	private void FixedUpdate(){
 		if (nearEnemy) {
@@ -70,7 +77,20 @@ void OntriggerExit2D(Collider2D enemy){
 					Health=Health-20;
 				}
 			}
-		}		
+		}
+		if(nearBoss){
+			if(Input.GetKeyDown(KeyCode.F)){
+				if(selectedDifficult==1){
+					Health=Health-20;
+				}
+				else if(selectedDifficult==2){
+					Health=Health-10;
+				}
+				else if(selectedDifficult==3){
+					Health=Health-5;
+				}
+			}
+		}
 			
 				//определяем, на земле ли персонаж
 				isGrounded = Physics2D.OverlapCircle (groundCheck.position, groundRadius, whatIsGround); 

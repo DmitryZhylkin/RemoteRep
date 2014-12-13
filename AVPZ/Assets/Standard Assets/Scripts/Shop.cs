@@ -32,7 +32,7 @@ public class Shop : MonoBehaviour {
 	private int score = 0;
 	private int up_coins = 0;
 	public static string nick = "";
-	int Checkpoint;
+	public static int Checkpoint;
 
 	void Start () 
 	{
@@ -216,8 +216,7 @@ public class Shop : MonoBehaviour {
 		}
 		if (GUI.Button (new Rect (800, 800, 230, 100), Continue)) 
 		{
-			{
-			string _strDBName = "URI=file:Assets/DB/Unity.db";
+			/*string _strDBName = "URI=file:Assets/DB/Unity.db";
 			IDbConnection _connection = new SqliteConnection (_strDBName);
 			IDbCommand _command = _connection .CreateCommand ();
 			string sql;
@@ -240,14 +239,16 @@ public class Shop : MonoBehaviour {
 			switch (Checkpoint) {
 			case 1: Application.LoadLevel("Level_1");
 				break;
-			case 2: Application.LoadLevel("Level_2");	
+			case 2: Application.LoadLevel("Level_2");
 				break;
 			case 3: Application.LoadLevel("Level_3");
 				break;
 			default:Application.LoadLevel("Difficulty");
 				break;
+			}*/
+			if(Checkpoint==2){
+				Application.LoadLevel("Level_2");
 			}
-
 		}
 		if (GUI.Button (new Rect (220, 810, 200, 75), mainmenu))
 		{
@@ -262,5 +263,4 @@ public class Shop : MonoBehaviour {
 
 		GUI.EndGroup ();
 	}
-}
 }

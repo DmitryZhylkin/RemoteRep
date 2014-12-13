@@ -10,12 +10,13 @@ using System.Security.Cryptography.X509Certificates;
 
 public class Finish : MonoBehaviour {
 	public static string nick="";
-	string checkpoint = "";
+	int checkpoint;
 	void OnTriggerEnter2D(Collider2D other)
 	{
-			checkpoint="2";
 		if (other.tag == "konez")
 		{
+			checkpoint=2;
+			Shop.Checkpoint=checkpoint;
 			int score = coinsCollect.score;
 			Debug.Log("in trigger");
 			string _strDBName = "URI=file:Assets/DB/Unity.db";
