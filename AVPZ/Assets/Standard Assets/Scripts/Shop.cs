@@ -66,7 +66,7 @@ public class Shop : MonoBehaviour {
 	
 		_connection .Open ();
 		
-		sql = "Select Score, armor2, armor3, armor4 From Players where Login ='smile';";
+		sql = "Select Score, armor2, armor3, armor4 From Players where Login ='"+nick+"';";
 		//sql = "Select Score, armor2, armor3, armor4 From Players where Login ="+nick+"';";
 		_command.CommandText = sql;
 		_command.ExecuteNonQuery ();
@@ -240,7 +240,7 @@ public class Shop : MonoBehaviour {
 			switch (Checkpoint) {
 			case 1: Application.LoadLevel("Level_1");
 				break;
-			case 2: Application.LoadLevel("Level_2");
+			case 2: Application.LoadLevel("Level_2");	
 				break;
 			case 3: Application.LoadLevel("Level_3");
 				break;

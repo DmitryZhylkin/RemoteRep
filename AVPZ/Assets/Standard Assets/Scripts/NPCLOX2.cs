@@ -16,6 +16,7 @@ public class NPCLOX2 : MonoBehaviour {
 				Time.timeScale = 1;
 				text = false;
 				Screen.showCursor=false;
+				firstTime=false;
 			}
 			
 		}

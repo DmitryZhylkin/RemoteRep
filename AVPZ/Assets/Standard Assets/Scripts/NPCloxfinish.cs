@@ -21,6 +21,7 @@ public class NPCloxfinish : MonoBehaviour {
 					Time.timeScale = 1;
 					text = false;
 				Screen.showCursor=false;
+				firstTime=false;
 				}
 				
 			}
