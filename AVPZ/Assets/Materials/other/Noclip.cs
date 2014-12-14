@@ -12,12 +12,18 @@ public class Noclip : MonoBehaviour {
 	void Update () {
 	}
 	void OnTriggerEnter2D(Collider2D other){
-				if (other.tag == "Player")
-			GameObject.Find("Pumpkin_Face1").collider2D.enabled=false;
+				if (other.tag == "Player") {
+						GameObject.Find ("Pumpkin_Face1").collider2D.enabled = false;
+						for (int i=0; i<16; i++)
+								GameObject.Find ("TrapBranch " + i + "").collider2D.enabled = true;
+						for (int i=0; i<2; i++)
+								GameObject.Find ("Fence_Post Boss " + i + "").collider2D.enabled = true;
+				}
 
 		}
 	void OnTriggerExit2D(Collider2D other){
 		if (other.tag == "Player")
 			GameObject.Find("Pumpkin_Face1").collider2D.enabled=true;
 	}
+
 }

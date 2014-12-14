@@ -6,16 +6,24 @@ public class EnemyDie : MonoBehaviour {
 	void Update(){
 		if(CharacterControl.Health<=0){
 
+
+
 			Animator am = gameObject.GetComponent<Animator> ();
 			am.enabled = true;
 			animTime -= Time.deltaTime;
+
+
+
 			if(animTime<=0){
 				 
 				am.enabled=false;
 				Destroy(this.gameObject);
 				CharacterControl.Health=100;
-			}
 			
+			
+			}
+			BoxCollider2D test = gameObject.GetComponentInParent<BoxCollider2D>();
+			test.enabled = true;
 		}
 	}
 }
