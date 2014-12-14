@@ -1,17 +1,10 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-<<<<<<< HEAD
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Standard Assets\Scripts\Customize.cs">
     <Files>
-      <File FileName="Assets\Standard Assets\Scripts\CharacterControl.cs" Line="197" Column="7" />
-      <File FileName="Assets\Standard Assets\Scripts\Customize.cs" Line="222" Column="12" />
-=======
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Standard Assets\Scripts\oins.cs">
-    <Files>
-      <File FileName="Assets\Standard Assets\Scripts\EnemyDie.cs" Line="9" Column="4" />
-      <File FileName="Assets\Standard Assets\Scripts\oins.cs" Line="6" Column="3" />
-      <File FileName="Assets\Standard Assets\Scripts\Teleport.cs" Line="8" Column="2" />
->>>>>>> origin/master
+      <File FileName="Assets\Standard Assets\Scripts\CharacterControl.cs" Line="221" Column="2" />
+      <File FileName="Assets\Standard Assets\Scripts\Customize.cs" Line="10" Column="26" />
+      <File FileName="Assets\Standard Assets\Scripts\EnemyDie.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -7,7 +7,7 @@ using System.Data.SqlClient;
 public class Customize: MonoBehaviour {
 
 	private Texture man_default;
-	public static int skin;
+	public static int skin=2;
 	private Texture man_2;
 	private Texture man_3;
 	private Texture newbie;
@@ -19,7 +19,7 @@ public class Customize: MonoBehaviour {
 	private Texture confirm;
 	public AudioClip menu_click;
 	public Texture select;
-	public static string nick = "SmiLe";
+	public static string nick = "";
 	private int armor2 = 0;
 	private int armor3 = 0;
 	private int armor4 = 0;
