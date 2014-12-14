@@ -17,6 +17,10 @@ public class pause : MonoBehaviour {
 	private Texture _low;
 	private Texture _medium;
 	private Texture _high;
+	private Texture r720;
+	private Texture r900;
+	private Texture r1024;
+	private Texture r1080;
 	private GUIStyle transparent = new GUIStyle();
 	
 	void  Start (){
@@ -30,6 +34,10 @@ public class pause : MonoBehaviour {
 		_low = (Texture)Resources.Load ("low");
 		_medium = (Texture)Resources.Load ("medium");
 		_high = (Texture)Resources.Load ("high");
+		r720 =(Texture)Resources.Load ("720");
+		r900 =(Texture)Resources.Load ("900");
+		r1024 =(Texture)Resources.Load ("1024");
+		r1080 =(Texture)Resources.Load ("1080");
 	}
 	
 	void Update (){ 
@@ -112,16 +120,16 @@ public class pause : MonoBehaviour {
 			if(resolution){      // если resolution истинно тогда
 				GUI.Box(new Rect(Screen.width/2-150,Screen.height/2-200,300,320), "");           //отрисовываем GUI.Box Графика
 				
-				if (GUI.Button(new Rect(Screen.width/2-100,Screen.height/2-180,200,50), "1280x720")) {
+				if (GUI.Button(new Rect(Screen.width/2-75,Screen.height/2-180,200,50), r720, transparent)) {
 					Screen.SetResolution(1280,720,true);             
 				} 
-				if (GUI.Button(new Rect(Screen.width/2-100,Screen.height/2-120,200,50), "1280x1024")) {
+				if (GUI.Button(new Rect(Screen.width/2-75,Screen.height/2-120,200,50), r1024, transparent)) {
 					Screen.SetResolution(1280,1024,true);             
 				}
-				if (GUI.Button(new Rect(Screen.width/2-100,Screen.height/2-60,200,50), "1600x900")) {
+				if (GUI.Button(new Rect(Screen.width/2-75,Screen.height/2-60,200,50), r900, transparent)) {
 					Screen.SetResolution(1600,900,true); 
 				}
-				if (GUI.Button(new Rect(Screen.width/2-100,Screen.height/2+0,200,50), "1920x1080")) {
+				if (GUI.Button(new Rect(Screen.width/2-75,Screen.height/2+0,200,50), r1080, transparent)) {
 					Screen.SetResolution(1920,1080,true); 
 				}
 				if (GUI.Button(new Rect(Screen.width/2-50,Screen.height/2+60,200,50), Back,transparent)) {

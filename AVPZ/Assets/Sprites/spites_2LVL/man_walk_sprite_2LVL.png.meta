@@ -1,7 +1,16 @@
 fileFormatVersion: 2
 guid: 3e5a26c5001815d4c805728ef09dbf1d
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: man_walk_sprite_2LVL_0
+    21300002: man_walk_sprite_2LVL_1
+    21300004: man_walk_sprite_2LVL_2
+    21300006: man_walk_sprite_2LVL_3
+    21300008: man_walk_sprite_2LVL_4
+    21300010: man_walk_sprite_2LVL_5
+    21300012: man_walk_sprite_2LVL_6
+    21300014: man_walk_sprite_2LVL_7
+    21300016: man_walk_sprite_2LVL_8
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -25,13 +34,13 @@ TextureImporter:
   maxTextureSize: 1024
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 1
     mipBias: -1
-    wrapMode: -1
+    wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -42,6 +51,96 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: man_walk_sprite_2LVL_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 355
+        width: 121
+        height: 321
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: man_walk_sprite_2LVL_1
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 359
+        width: 205
+        height: 318
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: man_walk_sprite_2LVL_2
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 358
+        width: 186
+        height: 319
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: man_walk_sprite_2LVL_3
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 364
+        width: 220
+        height: 313
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: man_walk_sprite_2LVL_4
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 365
+        width: 174
+        height: 312
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: man_walk_sprite_2LVL_5
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 36
+        width: 155
+        height: 323
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: man_walk_sprite_2LVL_6
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 35
+        width: 229
+        height: 323
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: man_walk_sprite_2LVL_7
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 38
+        width: 211
+        height: 316
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: man_walk_sprite_2LVL_8
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 36
+        width: 180
+        height: 325
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

@@ -33,6 +33,24 @@ public class CharacterControl : MonoBehaviour
 	//int selectedDifficult=Difficulty.difficult;
 	private void Start()
 	{	
+		if(Customize.skin==1){
+			GameObject char2= GameObject.Find("character2");
+			GameObject char3= GameObject.Find("character3");
+			Destroy(char2);
+			Destroy(char3);
+		}
+		if(Customize.skin==2){
+			GameObject char1= GameObject.Find("character");
+			GameObject char3= GameObject.Find("character3");
+			Destroy(char1);
+			Destroy(char3);
+		}
+		if(Customize.skin==3){
+			GameObject char2= GameObject.Find("character2");
+			GameObject char1= GameObject.Find("character");
+			Destroy(char2);
+			Destroy(char1);
+		}
 		if (selectedDifficult == 0)
 						selectedDifficult = 1;
 		print (selectedDifficult);
@@ -77,8 +95,8 @@ void OntriggerExit2D(Collider2D enemy){
 				//устанавливаем в аниматоре значение скорости взлета/падения
 				anim.SetFloat ("vSpeed", rigidbody2D.velocity.y);
 				//если персонаж в прыжке - выход из метода, чтобы не выполнялись действия, связанные с бегом
-				if (!isGrounded)
-						return;
+				/*if (!isGrounded)
+						return;*/
 				//используем Input.GetAxis для оси Х. метод возвращает значение оси в пределах от -1 до 1.
 				//при стандартных настройках проекта 
 				//-1 возвращается при нажатии на клавиатуре стрелки влево (или клавиши А),
@@ -134,13 +152,14 @@ void OntriggerExit2D(Collider2D enemy){
 				}
 			}
 		}
-		if(Input.GetKeyDown(KeyCode.LeftArrow)) {
-			audio.PlayOneShot(move);
-			audio.volume = 1F;
-		}
-		if (Input.GetKeyDown (KeyCode.RightArrow)) {
-			audio.PlayOneShot(move);
-			audio.volume = 1F;
+		if (rigidbody2D.velocity.magnitude >= 0.2) {
+			
+			if (isGrounded) {
+				if (!audio.isPlaying) {
+					audio.clip = move;
+					audio.Play ();
+				}
+			}
 		}
 		//если персонаж на земле и нажат пробел...
 		if (isGrounded && Input.GetKeyDown (KeyCode.Space)) 
@@ -154,13 +173,30 @@ void OntriggerExit2D(Collider2D enemy){
 			audio.volume = 2F;
 			audio.Play ();
 		}
-		if (Input.GetKeyDown (KeyCode.F)) {
+		if (Input.GetKeyDown (KeyCode.F)&&Customize.skin==1) {
 						anim.Play ("Attack(sword)");
 						audio.PlayOneShot (attack);
 						audio.volume = 1F;
-				} else if (Input.GetKeyUp (KeyCode.F)) {
+				} 
+		 else if (Input.GetKeyUp (KeyCode.F)&&Customize.skin==1) {
 					anim.Play("Idle");
 				}
+		if (Input.GetKeyDown (KeyCode.F)&&Customize.skin==2) {
+			anim.Play ("attack2");
+			audio.PlayOneShot (attack);
+			audio.volume = 1F;
+		} 
+		else if (Input.GetKeyUp (KeyCode.F)&&Customize.skin==2) {
+			anim.Play("Idle");
+		}
+		if (Input.GetKeyDown (KeyCode.F)&&Customize.skin==3) {
+			anim.Play ("attack3");
+			audio.PlayOneShot (attack);
+			audio.volume = 1F;
+		} 
+		else if (Input.GetKeyUp (KeyCode.F)&&Customize.skin==3) {
+			anim.Play("Idle3");
+		}
 	}
 	
 	/// <summary>

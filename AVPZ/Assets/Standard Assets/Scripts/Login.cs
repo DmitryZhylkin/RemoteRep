@@ -16,7 +16,7 @@ public class Login : MonoBehaviour {
 	private Texture forgot;
 	private Texture login_new;
 	private Texture signup;
-
+	private Texture quit;
 	public AudioClip menu_click;
 
 	private GUIStyle transparent = new GUIStyle();
@@ -32,6 +32,7 @@ public class Login : MonoBehaviour {
 		forgot = (Texture)Resources.Load ("forgot_new");
 		login_new = (Texture)Resources.Load ("login_new");
 		signup = (Texture)Resources.Load ("signup");
+		quit = (Texture)Resources.Load ("quit");
 	} 
 
 	void OnGUI() {
@@ -56,12 +57,12 @@ public class Login : MonoBehaviour {
 			audio.PlayOneShot(menu_click);
 			audio.volume = 0.3F;
 		}
-
 		// Проверка существования игрока в БД. Если да - вход в игру.
 
-		if (GUI.Button (new Rect (490, 480, 100, 50), login_new, transparent)) {
+		if (GUI.Button (new Rect (450, 480, 100, 50), login_new, transparent)) {
 			Main.nick=LoginString;
 			Finish.nick=LoginString;
+			Customize.nick = LoginString;
 			//Shop.nick=LoginString;
 			IDataReader reader;
 			string _DBName = "URI=file:Assets/DB/Unity.db";
@@ -88,12 +89,18 @@ public class Login : MonoBehaviour {
 
 		}
 
-		if(GUI.Button (new Rect(665,425,150,35),forgot, transparent)){
+		if(GUI.Button (new Rect(665,425,150,35),forgot, transparent))
+		{
 			Application.LoadLevel("Forgot_Password");
 		}
 
-		if (GUI.Button (new Rect (620, 480, 100, 50), signup, transparent)) {
+		if (GUI.Button (new Rect (580, 480, 100, 50), signup, transparent)) 
+		{
 			Application.LoadLevel("Register");
+		}
+		if (GUI.Button (new Rect (720, 480, 100, 50), quit, transparent)) 
+		{
+			Application.Quit();
 		}
 
 		GUI.EndGroup ();

@@ -4,7 +4,7 @@ using System.Data;
 using Mono.Data.SqliteClient;
 using System.Data.SqlClient;
 
-public class Main: MonoBehaviour {
+public class MainOrig: MonoBehaviour {
 
 	private Texture Continue;
 	private Texture New_game;
@@ -15,7 +15,6 @@ public class Main: MonoBehaviour {
 	public AudioClip menu_click;
 	public static string nick = "";
 	public static int Checkpoint;
-	private GUIStyle style = new GUIStyle();
 	
 	void Start()
 	{ 
@@ -23,18 +22,15 @@ public class Main: MonoBehaviour {
 		Continue = (Texture)Resources.Load("continue"); 
 		New_game = (Texture)Resources.Load ("new_game");
 		Logout = (Texture)Resources.Load ("logout");
-		Quit = (Texture)Resources.Load ("exit");
+		Quit = (Texture)Resources.Load ("quit");
 		Logo = (Texture)Resources.Load ("logo");
 		menu_click = (AudioClip)Resources.Load("menu_click");
 	} 
 
 	void OnGUI() {
-		style.font = (Font)Resources.Load("la_truite");
-		style.fontSize = 40;
-		style.normal.textColor = Color.white;
 		GUI.backgroundColor = Color.clear;
 		GUI.BeginGroup (new Rect (Screen.width / 2 - 630, Screen.height / 2 - 500, 1000, 1000));
-		GUI.Label (new Rect (450,237,300,80),"Welcome back, "+nick+"", style);
+		GUI.Label (new Rect (800,900,200,80),"<size=20>"+nick+"</size>");
 		GUI.DrawTexture (new Rect (300, 100, 650, 150), Logo);
 
 		if (Input.GetButtonDown("Fire1"))
@@ -88,7 +84,7 @@ public class Main: MonoBehaviour {
 		{
 			Application.LoadLevel ("Login");
 		}
-		if (GUI.Button (new Rect (480, 720, 300, 80), Quit)) 
+		if (GUI.Button (new Rect (520, 720, 300, 80), Quit)) 
 		{
 			Application.Quit ();
 		}
