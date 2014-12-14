@@ -48,8 +48,8 @@ public class CharacterControl : MonoBehaviour
 				//устанавливаем в аниматоре значение скорости взлета/падения
 				anim.SetFloat ("vSpeed", rigidbody2D.velocity.y);
 				//если персонаж в прыжке - выход из метода, чтобы не выполнялись действия, связанные с бегом
-				if (!isGrounded)
-						return;
+				//if (!isGrounded)
+						//return;
 				//используем Input.GetAxis для оси Х. метод возвращает значение оси в пределах от -1 до 1.
 				//при стандартных настройках проекта 
 				//-1 возвращается при нажатии на клавиатуре стрелки влево (или клавиши А),
@@ -76,7 +76,7 @@ public class CharacterControl : MonoBehaviour
 								Flip ();
 						}
 		}
-	
+
 	private void Update()
 	{
 		if(Input.GetKeyDown(KeyCode.LeftArrow)) {
