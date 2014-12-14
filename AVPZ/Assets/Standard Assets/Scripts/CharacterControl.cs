@@ -24,21 +24,24 @@ public class CharacterControl : MonoBehaviour
 	public static int Health = 100;
 	bool nearEnemy=false;
 	bool nearBoss=false;
-	int selectedDifficult=Difficulty.difficult;
-	//int selectedDifficult=2;
+	public static int selectedDifficult;
 	
 	/// <summary>
 	/// Начальная инициализация
 	/// </summary>
 
+	//int selectedDifficult=Difficulty.difficult;
 	private void Start()
-	{
-		Debug.Log (selectedDifficult);
+	{	
+		if (selectedDifficult == 0)
+						selectedDifficult = 1;
+		print (selectedDifficult);
 		jump = (AudioClip)Resources.Load ("jump");
 		move = (AudioClip)Resources.Load ("steps");
 		anim = GetComponent<Animator>();
 		attack = (AudioClip)Resources.Load ("sword");
 		Time.timeScale = 1;
+		Health = 100;
 	}
 
 	/// <summary>
@@ -65,32 +68,7 @@ void OntriggerExit2D(Collider2D enemy){
 		}
 }
 	private void FixedUpdate(){
-		if (nearEnemy) {
-			if(Input.GetKeyDown(KeyCode.F)){
-				if(selectedDifficult==1){
-					Health=Health-50;
-				}
-				else if(selectedDifficult==2){
-					Health=Health-35;
-				}
-				else if(selectedDifficult==3){
-					Health=Health-20;
-				}
-			}
-		}
-		if(nearBoss){
-			if(Input.GetKeyDown(KeyCode.F)){
-				if(selectedDifficult==1){
-					Health=Health-20;
-				}
-				else if(selectedDifficult==2){
-					Health=Health-10;
-				}
-				else if(selectedDifficult==3){
-					Health=Health-5;
-				}
-			}
-		}
+
 			
 				//определяем, на земле ли персонаж
 				isGrounded = Physics2D.OverlapCircle (groundCheck.position, groundRadius, whatIsGround); 
@@ -130,6 +108,32 @@ void OntriggerExit2D(Collider2D enemy){
 	
 	private void Update()
 	{
+		if (nearEnemy) {
+			if(Input.GetKeyDown(KeyCode.F)){
+				if(selectedDifficult==1){
+					Health=Health-50;
+				}
+				else if(selectedDifficult==2){
+					Health=Health-35;
+				}
+				else if(selectedDifficult==3){
+					Health=Health-20;
+				}
+			}
+		}
+		if(nearBoss){
+			if(Input.GetKeyDown(KeyCode.F)){
+				if(selectedDifficult==1){
+					Health=Health-20;
+				}
+				else if(selectedDifficult==2){
+					Health=Health-10;
+				}
+				else if(selectedDifficult==3){
+					Health=Health-5;
+				}
+			}
+		}
 		if(Input.GetKeyDown(KeyCode.LeftArrow)) {
 			audio.PlayOneShot(move);
 			audio.volume = 1F;

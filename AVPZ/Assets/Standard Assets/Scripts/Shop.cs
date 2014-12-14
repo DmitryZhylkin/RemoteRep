@@ -216,38 +216,11 @@ public class Shop : MonoBehaviour {
 		}
 		if (GUI.Button (new Rect (800, 800, 230, 100), Continue)) 
 		{
-			/*string _strDBName = "URI=file:Assets/DB/Unity.db";
-			IDbConnection _connection = new SqliteConnection (_strDBName);
-			IDbCommand _command = _connection .CreateCommand ();
-			string sql;
-			
-			_connection .Open ();
-			
-			sql = "Select Checkpoint From Players where Login = '"+nick+"';";
-			_command.CommandText = sql;
-			_command.ExecuteNonQuery ();
-			IDataReader reader = _command.ExecuteReader();
-			while (reader.Read()) 
-			{
-				Checkpoint = reader.GetInt32(0);
-			}
-			Debug.Log(Checkpoint);
-			_command.Dispose ();
-			_command = null;
-			_connection .Close ();
-			_connection = null;
-			switch (Checkpoint) {
-			case 1: Application.LoadLevel("Level_1");
-				break;
-			case 2: Application.LoadLevel("Level_2");
-				break;
-			case 3: Application.LoadLevel("Level_3");
-				break;
-			default:Application.LoadLevel("Difficulty");
-				break;
-			}*/
 			if(Checkpoint==2){
 				Application.LoadLevel("Level_2");
+			}
+			if(Checkpoint==3){
+				Application.LoadLevel("Level_3");
 			}
 		}
 		if (GUI.Button (new Rect (220, 810, 200, 75), mainmenu))
