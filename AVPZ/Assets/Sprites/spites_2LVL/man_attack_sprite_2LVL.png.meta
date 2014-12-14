@@ -1,0 +1,168 @@
+fileFormatVersion: 2
+guid: 5c8b02d756d83824081f383b6b54ea06
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: man_attack_sprite_2LVL_0
+    21300002: man_attack_sprite_2LVL_1
+    21300004: man_attack_sprite_2LVL_2
+    21300006: man_attack_sprite_2LVL_3
+    21300008: man_attack_sprite_2LVL_4
+    21300010: man_attack_sprite_2LVL_5
+    21300012: man_attack_sprite_2LVL_6
+    21300014: man_attack_sprite_2LVL_7
+    21300016: man_attack_sprite_2LVL_8
+    21300018: man_attack_sprite_2LVL_9
+    21300020: man_attack_sprite_2LVL_10
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: man_attack_sprite_2LVL_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 360
+        width: 169
+        height: 263
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: man_attack_sprite_2LVL_1
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 363
+        width: 194
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: man_attack_sprite_2LVL_2
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 365
+        width: 169
+        height: 257
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: man_attack_sprite_2LVL_3
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 362
+        width: 161
+        height: 300
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: man_attack_sprite_2LVL_4
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 363
+        width: 147
+        height: 302
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: man_attack_sprite_2LVL_5
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 362
+        width: 204
+        height: 267
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: man_attack_sprite_2LVL_6
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 63
+        width: 213
+        height: 258
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: man_attack_sprite_2LVL_7
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 64
+        width: 221
+        height: 261
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: man_attack_sprite_2LVL_8
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 63
+        width: 235
+        height: 259
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: man_attack_sprite_2LVL_9
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 60
+        width: 190
+        height: 258
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: man_attack_sprite_2LVL_10
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 58
+        width: 167
+        height: 264
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

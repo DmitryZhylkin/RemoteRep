@@ -1,0 +1,377 @@
+fileFormatVersion: 2
+guid: cc1917bdf9dc5ad4496de1bd80f73f1c
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: walk_careful_sheet_0
+    21300002: walk_careful_sheet_1
+    21300004: walk_careful_sheet_2
+    21300006: walk_careful_sheet_3
+    21300008: walk_careful_sheet_4
+    21300010: walk_careful_sheet_5
+    21300012: walk_careful_sheet_6
+    21300014: walk_careful_sheet_7
+    21300016: walk_careful_sheet_8
+    21300018: walk_careful_sheet_9
+    21300020: walk_careful_sheet_10
+    21300022: walk_careful_sheet_11
+    21300024: walk_careful_sheet_12
+    21300026: walk_careful_sheet_13
+    21300028: walk_careful_sheet_14
+    21300030: walk_careful_sheet_15
+    21300032: walk_careful_sheet_16
+    21300034: walk_careful_sheet_17
+    21300036: walk_careful_sheet_18
+    21300038: walk_careful_sheet_19
+    21300040: walk_careful_sheet_20
+    21300042: walk_careful_sheet_21
+    21300044: walk_careful_sheet_22
+    21300046: walk_careful_sheet_23
+    21300048: walk_careful_sheet_24
+    21300050: walk_careful_sheet_25
+    21300052: walk_careful_sheet_26
+    21300054: walk_careful_sheet_27
+    21300056: walk_careful_sheet_28
+    21300058: walk_careful_sheet_29
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: walk_careful_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 461
+        width: 70
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walk_careful_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 462
+        width: 70
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walk_careful_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 463
+        width: 70
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walk_careful_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 463
+        width: 69
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walk_careful_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 464
+        width: 69
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walk_careful_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 465
+        width: 68
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walk_careful_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 351
+        width: 67
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walk_careful_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 352
+        width: 68
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walk_careful_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 352
+        width: 68
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walk_careful_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 351
+        width: 67
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walk_careful_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 350
+        width: 69
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walk_careful_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 349
+        width: 70
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walk_careful_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 235
+        width: 72
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walk_careful_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 235
+        width: 72
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walk_careful_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 234
+        width: 73
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walk_careful_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 233
+        width: 73
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walk_careful_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 234
+        width: 72
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walk_careful_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 235
+        width: 70
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walk_careful_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 122
+        width: 68
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walk_careful_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 122
+        width: 66
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walk_careful_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 122
+        width: 67
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walk_careful_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 122
+        width: 68
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walk_careful_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 122
+        width: 68
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walk_careful_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 122
+        width: 68
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walk_careful_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 7
+        width: 68
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walk_careful_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 7
+        width: 68
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walk_careful_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 7
+        width: 69
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walk_careful_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 6
+        width: 70
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walk_careful_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 6
+        width: 70
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walk_careful_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 6
+        width: 70
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

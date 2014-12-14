@@ -21,26 +21,55 @@ public class CharacterControl : MonoBehaviour
 	private float groundRadius = 0.2f;
 	//ссылка на слой, представляющий землю
 	public LayerMask whatIsGround;
+	public static int Health = 100;
+	bool nearEnemy=false;
+	bool nearBoss=false;
+	public static int selectedDifficult;
 	
 	/// <summary>
 	/// Начальная инициализация
 	/// </summary>
 
+	//int selectedDifficult=Difficulty.difficult;
 	private void Start()
-	{
+	{	
+		if (selectedDifficult == 0)
+						selectedDifficult = 1;
+		print (selectedDifficult);
 		jump = (AudioClip)Resources.Load ("jump");
 		move = (AudioClip)Resources.Load ("steps");
 		anim = GetComponent<Animator>();
 		attack = (AudioClip)Resources.Load ("sword");
 		Time.timeScale = 1;
+		Health = 100;
 	}
 
 	/// <summary>
 	/// Выполняем действия в методе FixedUpdate, т. к. в компоненте Animator персонажа
 	/// выставлено значение Animate Physics = true и анимация синхронизируется с расчетами физики
 	/// </summary>
-	private void FixedUpdate()
-	{
+	/// 
+	 void OnTriggerEnter2D(Collider2D enemy){
+	if (enemy.tag == "Enemy") {
+		Debug.Log ("NearEnemy");
+		nearEnemy=true;
+	}
+		if (enemy.tag == "Boss") {
+			Debug.Log("NearBoss");
+			nearBoss=true;		
+		}
+}
+void OntriggerExit2D(Collider2D enemy){
+	if (enemy.tag == "Enemy") {
+		nearEnemy=false;		
+	}
+		if (enemy.tag == "Boss") {
+			nearBoss=false;		
+		}
+}
+	private void FixedUpdate(){
+
+			
 				//определяем, на земле ли персонаж
 				isGrounded = Physics2D.OverlapCircle (groundCheck.position, groundRadius, whatIsGround); 
 				//устанавливаем соответствующую переменную в аниматоре
@@ -79,6 +108,32 @@ public class CharacterControl : MonoBehaviour
 
 	private void Update()
 	{
+		if (nearEnemy) {
+			if(Input.GetKeyDown(KeyCode.F)){
+				if(selectedDifficult==1){
+					Health=Health-50;
+				}
+				else if(selectedDifficult==2){
+					Health=Health-35;
+				}
+				else if(selectedDifficult==3){
+					Health=Health-20;
+				}
+			}
+		}
+		if(nearBoss){
+			if(Input.GetKeyDown(KeyCode.F)){
+				if(selectedDifficult==1){
+					Health=Health-20;
+				}
+				else if(selectedDifficult==2){
+					Health=Health-10;
+				}
+				else if(selectedDifficult==3){
+					Health=Health-5;
+				}
+			}
+		}
 		if(Input.GetKeyDown(KeyCode.LeftArrow)) {
 			audio.PlayOneShot(move);
 			audio.volume = 1F;
@@ -99,11 +154,13 @@ public class CharacterControl : MonoBehaviour
 			audio.volume = 2F;
 			audio.Play ();
 		}
-		if (Input.GetButtonDown("Attack")) {
-			anim.Play("Attack(sword)");
-			audio.PlayOneShot(attack);
-			audio.volume = 1F;
-		} 		
+		if (Input.GetKeyDown (KeyCode.F)) {
+						anim.Play ("Attack(sword)");
+						audio.PlayOneShot (attack);
+						audio.volume = 1F;
+				} else if (Input.GetKeyUp (KeyCode.F)) {
+					anim.Play("Idle");
+				}
 	}
 	
 	/// <summary>

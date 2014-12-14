@@ -1,10 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Standard Assets\Scripts\Main.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Standard Assets\Scripts\CharacterControl.cs">
     <Files>
-      <File FileName="Assets\Standard Assets\Scripts\Main.cs" Line="57" Column="37" />
-      <File FileName="Assets\Standard Assets\Scripts\Register.cs" Line="84" Column="172" />
-      <File FileName="Assets\Standard Assets\Scripts\Login.cs" Line="77" Column="1" />
+      <File FileName="Assets\Standard Assets\Scripts\EnemyDie.cs" Line="16" Column="5" />
+      <File FileName="Assets\Standard Assets\Scripts\CharacterControl.cs" Line="44" Column="16" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
