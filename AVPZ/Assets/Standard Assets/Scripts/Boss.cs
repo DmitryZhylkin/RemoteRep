@@ -25,6 +25,7 @@ public class Boss : MonoBehaviour {
 				am.enabled=false;
 				Destroy(this.gameObject);
 				CharacterControl.Health=100;
+				Application.LoadLevel("Main");
 			}
 			
 		}

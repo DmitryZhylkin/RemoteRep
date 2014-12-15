@@ -1,8 +1,14 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Standard Assets\Scripts\Loop_Play.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Materials\other\Noclip.cs">
     <Files>
-      <File FileName="Assets\Standard Assets\Scripts\Loop_Play.cs" Line="21" Column="4" />
+      <File FileName="Assets\Standard Assets\Scripts\Boss.cs" Line="28" Column="32" />
+      <File FileName="Assets\Materials\other\Noclip.cs" Line="18" Column="74" />
+      <File FileName="Assets\Standard Assets\Scripts\Chest.cs" Line="1" Column="1" />
+      <File FileName="Assets\Standard Assets\Scripts\coinsCollect.cs" Line="1" Column="1" />
+      <File FileName="Assets\Standard Assets\Scripts\Customize.cs" Line="1" Column="1" />
+      <File FileName="Assets\Standard Assets\Scripts\Difficulty.cs" Line="1" Column="1" />
+      <File FileName="Assets\Standard Assets\Scripts\EnemyDie.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
